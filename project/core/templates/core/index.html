@@ -1,0 +1,13 @@
+{% extends 'core/base.html' %}
+
+{% block title %}
+        <h1>Página principal</h1>
+{% endblock title %}
+
+{% block content %}
+    <ul>
+        <li><a href='{% url 'usuarios:home' %}'>Ir a Usuarios</a></li>
+        <li><a href="">Ir a Libros</a></li>
+        <li><a href="">Ir a Préstamos</a></li>
+    </ul>
+{% endblock content %}
