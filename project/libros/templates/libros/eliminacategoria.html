@@ -1,0 +1,23 @@
+{% extends 'core/base.html' %}
+
+{% block title %}
+    <h3>Eliminar</h3>
+{% endblock title %}
+
+{% block content %}
+    
+<div class="alert alert-danger">
+        
+    <p class="fs-5 fst-italic">¿Confirma eliminar <strong>{{categoria}}</strong>?</p>
+
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger">Confirmar</button>
+    </form>
+    
+</div>
+<div class="p-3 ">
+    <a class="btn btn-primary" href='{% url 'libros:listarcategorias' %}'>Cancelar</a>
+</div>
+
+{% endblock content %}

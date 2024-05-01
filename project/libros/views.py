@@ -49,11 +49,37 @@ def eliminarautor(request, pk: int):
     return render(request, "libros/eliminarautor.html", context={"autor": query})
 
 
-
-
-
 #Vistas para Categorias
 def listarcategorias(request):
     query=models.Categoria.objects.all()
     context={'categorias': query}
     return render(request, 'libros/listarcategorias.html', context)
+
+def crearcategoria(request):
+    if request.method == "POST":
+        form = forms.LibrosCrearCategoria(request.POST)
+        if form.is_valid:
+            form.save()
+            return redirect("libros:home")
+    else:
+        form = forms.LibrosCrearCategoria()
+    return render(request, "libros/crearcategoria.html", context={"form": form})
+
+def eliminacategoria(request, pk:int):
+    query=models.Categoria.objects.get(id=pk)
+    if request.method == 'POST':
+        query.delete()
+        return redirect('libros:home')
+    
+    return render(request, "libros/eliminacategoria.html", context={"categoria": query})
+
+def editarcategoria(request, pk: int):
+    query=models.Categoria.objects.get(id=pk)
+    if request.method == 'POST':
+        form = forms.LibrosCrearCategoria(request.POST, instance=query)
+        if form.is_valid:
+            form.save()
+            return redirect('libros:home')
+    else:
+        form = forms.LibrosCrearAutor(instance=query)
+    return render(request, "libros/editarcategoria.html", context={"form": form})

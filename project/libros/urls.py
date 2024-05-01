@@ -17,5 +17,7 @@ urlpatterns = [
   
     #Rutas para categorias
     path('categorias',views.listarcategorias,name='listarcategorias'),
-
+    path('crearcategoria',views.crearcategoria,name='crearcategoria'),
+    path('eliminacategoria/<int:pk>',views.eliminacategoria,name='eliminacategoria'),
+    path('editarcategoria/<int:pk>',views.editarcategoria,name='editarcategoria'),
 ]

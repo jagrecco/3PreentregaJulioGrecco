@@ -7,6 +7,11 @@
 {% block content %}
 
 <div style="display: flex;gap: 15px;" class="py-3 ">
+
+    <div class="">
+        <a class="btn btn-primary" href='{% url 'libros:crearcategoria' %}'>Nueva Categoría</a>
+    </div>
+
     <div class="">
         <a class="btn btn-primary" href='{% url 'libros:home' %}'>Gestión de Libros</a>
     </div>
@@ -23,9 +28,17 @@
             <div class="card-body">
                 <h5 class="card-title">{{categoria.nombre}}</h5>
                 <p class="card-text">{{categoria.descripcion}}</p>
-                <!-- <h6 class="card-subtitle mb-2 text-muted">{{libro.autor}}</h6>
-                <p class="card-text">Stock en biblioteca: <strong>{{libro.stock}}</strong></p>
-                <p class="card-text">Disponibles en estante: <strong>{{libro.existencia}}</strong></p> -->
+
+                <!-- Menú categorías -->
+                <div style="display: flex;gap: 15px;" class="py-3 ">
+                    <div class="">
+                        <a class="btn btn-primary" href='{% url 'libros:editarcategoria' categoria.id %}' >Editar</a> 
+                    </div>
+                    <div class="">
+                        <a class="btn btn-primary" href='{% url 'libros:eliminacategoria' categoria.id %}'>Eliminar</a>
+                    </div>
+                    
+                </div>
             </div>
         </div>
     {% endfor %}
