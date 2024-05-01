@@ -14,7 +14,16 @@
     <div class="">
         <a class="btn btn-primary" href='{% url 'core:home' %}'>Página principal</a>
     </div>
+    
 </div>
+
+<div class="py-lg-4" styles="width:40%">
+    <form action="{% url 'libros:listarlibros' %}" method="get">
+        <label class="form-label">Enter para filtrar</label>
+        <input class="form-control" type="text" name="consulta" placeholder="Buscar...">
+    </form>
+</div>
+
 
 <div style="display: flex; gap: 20px;">
     {% for libro in libros  %}
@@ -27,6 +36,6 @@
                 <p class="card-text">Disponibles en estante: <strong>{{libro.existencia}}</strong></p>
             </div>
         </div>
-        {% endfor %}
+    {% endfor %}
 </div>
 {% endblock content %}

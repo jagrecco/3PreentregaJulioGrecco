@@ -8,14 +8,29 @@ def home(request):
     return render(request, 'libros/index.html')
 
 #Vistas para libros
-def listarlibros(request):
-    query=models.Libro.objects.all()
+def listarlibros(request,):
+
+    consulta = request.GET.get("consulta", None)
+
+    if consulta:
+        query = models.Libro.objects.filter(nombre__icontains=consulta)
+    else:
+        query=models.Libro.objects.all()
+    
+    #query=models.Libro.objects.all()
     context={'libros': query}
     return render(request, 'libros/listarlibros.html', context)
 
 #Vistas para Autores
 def listarautores(request):
-    query=models.Autor.objects.all()
+
+    consulta=request.GET.get("consulta", None)
+
+    if consulta:
+        query = models.Autor.objects.filter(nombre__icontains=consulta)
+    else:
+        query=models.Autor.objects.all()
+
     context={'autores': query}
     return render(request, 'libros/listarautores.html', context)
 
@@ -51,7 +66,14 @@ def eliminarautor(request, pk: int):
 
 #Vistas para Categorias
 def listarcategorias(request):
-    query=models.Categoria.objects.all()
+
+    consulta=request.GET.get("consulta", None)
+
+    if consulta:
+        query = models.Categoria.objects.filter(nombre__icontains=consulta)
+    else:
+        query=models.Categoria.objects.all()
+
     context={'categorias': query}
     return render(request, 'libros/listarcategorias.html', context)
 

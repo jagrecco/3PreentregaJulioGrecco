@@ -5,11 +5,22 @@
 {% endblock title %}
 
 {% block content %}
-    {% for usuario in usuarios  %}
-        <p>{{usuario.name}} Rol: {{usuario.rol}} PW: {{usuario.pw}}</p>
-    {% endfor %}
 
     <div class="py-5 ">
         <a class="btn btn-primary" href='{% url 'core:home' %}'>Página principal</a>
     </div>
+
+    <div style="display: flex; gap: 20px;">
+        {% for usuario in usuarios  %}
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">{{usuario.name}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Rol: <strong>{{usuario.rol}}</strong></h6>
+                    <p class="card-text">PW: {{usuario.pw}}</p>
+                </div>
+            </div>
+        
+        {% endfor %}
+    </div>
+
 {% endblock content %}
