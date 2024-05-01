@@ -1,0 +1,33 @@
+{% extends 'core/base.html' %}
+
+{% block title %}
+    <h1>Listar de Categorias</h1>
+{% endblock title %}
+
+{% block content %}
+
+<div style="display: flex;gap: 15px;" class="py-3 ">
+    <div class="">
+        <a class="btn btn-primary" href='{% url 'libros:home' %}'>Gestión de Libros</a>
+    </div>
+    
+    <div class="">
+        <a class="btn btn-primary" href='{% url 'core:home' %}'>Página principal</a>
+    </div>
+</div>
+
+<div style="display: flex; gap: 20px;">
+
+    {% for categoria in categorias  %}
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">{{categoria.nombre}}</h5>
+                <p class="card-text">{{categoria.descripcion}}</p>
+                <!-- <h6 class="card-subtitle mb-2 text-muted">{{libro.autor}}</h6>
+                <p class="card-text">Stock en biblioteca: <strong>{{libro.stock}}</strong></p>
+                <p class="card-text">Disponibles en estante: <strong>{{libro.existencia}}</strong></p> -->
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock content %}

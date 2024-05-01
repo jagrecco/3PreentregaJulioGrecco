@@ -8,4 +8,8 @@
     {% for usuario in usuarios  %}
         <p>{{usuario.name}} Rol: {{usuario.rol}} PW: {{usuario.pw}}</p>
     {% endfor %}
+
+    <div class="py-5 ">
+        <a class="btn btn-primary" href='{% url 'core:home' %}'>Página principal</a>
+    </div>
 {% endblock content %}
