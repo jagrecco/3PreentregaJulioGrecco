@@ -1,26 +1,24 @@
 {% extends 'core/base.html' %}
 
 {% block title %}
-    <h1>Lista de usuarios</h1>
+    <h1>Gestión de usuarios</h1>
 {% endblock title %}
 
 {% block content %}
 
-    <div class="py-5 ">
-        <a class="btn btn-primary" href='{% url 'core:home' %}'>Página principal</a>
-    </div>
-
-    <div style="display: flex; gap: 20px;">
-        {% for usuario in usuarios  %}
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">{{usuario.name}}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Rol: <strong>{{usuario.rol}}</strong></h6>
-                    <p class="card-text">PW: {{usuario.pw}}</p>
-                </div>
-            </div>
+    <div style="display: flex; gap: 15px;" class="py-3 ">
         
-        {% endfor %}
+        <div class="">
+            <a class="btn btn-primary" href='{% url 'usuarios:crearusuario' %}'>Nuevo Usuario</a>
+        </div>
+
+        <div class="">
+            <a class="btn btn-primary" href='{% url 'usuarios:listarusuarios' %}'>Listar Usuarios</a>
+        </div>
+        
+        <div class="">
+            <a class="btn btn-primary" href='{% url 'core:home' %}'>Página principal</a>
+        </div>
     </div>
 
 {% endblock content %}

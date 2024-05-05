@@ -8,6 +8,9 @@ urlpatterns = [
     path('', views.home, name='home'),
     #Rutas para libros
     path('libros',views.listarlibros,name='listarlibros'),
+    path('crearlibro',views.crearlibro,name='crearlibro'),
+    path('editarlibro/<int:pk>',views.editarlibro,name='editarlibro'),
+    path('eliminarlibro/<int:pk>',views.eliminarlibro,name='eliminarlibro'),
 
     #Rutas para autores
     path('autores',views.listarautores,name='listarautores'),

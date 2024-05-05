@@ -1,0 +1,79 @@
+[
+    {
+      "nombreCompleto": "Gabriel García Márquez",
+      "reseña": "Novelista, cuentista, guionista y periodista colombiano, ganador del Premio Nobel de Literatura en 1982. Su obra más conocida es Cien años de soledad."
+    },
+    {
+      "nombreCompleto": "J.R.R. Tolkien",
+      "reseña": "Filólogo y escritor británico, conocido principalmente por ser el autor de las obras de fantasía heroica El Señor de los Anillos y El Silmarillion."
+    },
+    {
+      "nombreCompleto": "Jane Austen",
+      "reseña": "Novelista británica de finales del siglo XVIII y principios del XIX, considerada una de las escritoras más importantes de la literatura inglesa."
+    },
+    {
+      "nombreCompleto": "George Orwell",
+      "reseña": "Ensayista, novelista y crítico británico, conocido por sus obras distópicas 1984 y Rebelión en la granja."
+    },
+    {
+      "nombreCompleto": "Fiódor Dostoievski",
+      "reseña": "Novelista, escritor de cuentos, filósofo y periodista ruso, considerado uno de los más grandes novelistas de todos los tiempos."
+    },
+    {
+      "nombreCompleto": "Miguel de Cervantes",
+      "reseña": "Escritor español, considerado como la figura más importante de la literatura en lengua castellana y universalmente aclamado como uno de los más grandes novelistas de la historia."
+    },
+    {
+      "nombreCompleto": "Oscar Wilde",
+      "reseña": "Dramaturgo, novelista, poeta y ensayista irlandés, conocido por su ingenio y sus epigramas."
+    },
+    {
+      "nombreCompleto": "William Shakespeare",
+      "reseña": "Dramaturgo, poeta y actor inglés, considerado el escritor más importante en lengua inglesa y el dramaturgo más célebre del mundo."
+    },
+    {
+      "nombreCompleto": "Franz Kafka",
+      "reseña": "Novelista y escritor de cuentos de origen judío de habla alemana, considerado uno de los autores más influyentes del siglo XX."
+    },
+    {
+      "nombreCompleto": "F. Scott Fitzgerald",
+      "reseña": "Novelista y cuentista estadounidense, considerado uno de los autores más importantes de la Era del Jazz."
+    },
+    {
+      "nombreCompleto": "Emily Brontë",
+      "reseña": "Novelista y poetisa inglesa, conocida por su única novela, Cumbres borrascosas, considerada una de las obras literarias más importantes del siglo XIX."
+    },
+    {
+      "nombreCompleto": "J.D. Salinger",
+      "reseña": "Novelista y cuentista estadounidense, conocido por su novela El guardián entre el centeno, considerada una de las obras más importantes de la literatura estadounidense del siglo XX."
+    },
+    {
+      "nombreCompleto": "Julio Cortázar",
+      "reseña": "Escritor argentino, considerado uno de los mayores exponentes del siglo XX y uno de los padres del boom latinoamericano."
+    },
+    {
+      "nombreCompleto": "Albert Camus",
+      "reseña": "Escritor, filósofo y periodista francés, ganador del Premio Nobel de Literatura en 1957. Su obra se caracteriza por su exploración de temas como el absurdo, la libertad y la rebelión."
+    },
+    {
+      "nombreCompleto": "Victor Hugo",
+      "reseña": "Poeta, novelista, dramaturgo y político francés, considerado uno de los escritores más importantes del siglo XIX."
+    },
+    {
+      "nombreCompleto": "Herman Melville",
+      "reseña": "Novelista, cuentista y marinero estadounidense, considerado uno de los autores más importantes del siglo XIX."
+    },
+    {
+      "nombreCompleto": "Joseph Conrad",
+      "reseña": "Novelista polaco-británico, considerado uno de los autores más importantes del siglo XX."
+    },
+    {
+      "nombreCompleto": "Hermann Hesse",
+      "reseña": "Escritor y poeta alemán, ganador del Premio Nobel de Literatura en 1946. Su obra se caracteriza por su exploración de temas como la espiritualidad, la naturaleza y la individualidad."
+    },
+    {
+      "nombreCompleto": "León Tolstói",
+      "reseña": "Novelista"
+    }
+]
+  

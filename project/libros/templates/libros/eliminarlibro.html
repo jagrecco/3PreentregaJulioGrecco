@@ -1,0 +1,27 @@
+{% extends 'core/base.html' %}
+
+{% block title %}
+    <h3>Eliminar</h3>
+{% endblock title %}
+
+{% block content %}
+    
+    <div style="max-width: 50%;">
+
+        <div class="alert alert-danger">
+                
+            <p class="fs-5 fst-italic">¿Confirma eliminar <strong>{{libro}}</strong>?</p>
+        
+            <form method="post">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-danger">Confirmar</button>
+            </form>
+            
+        </div>
+        <div class="p-3 ">
+            <a class="btn btn-primary" href='{% url 'libros:listarlibros' %}'>Cancelar</a>
+        </div>
+        
+    </div>
+
+{% endblock content %}
