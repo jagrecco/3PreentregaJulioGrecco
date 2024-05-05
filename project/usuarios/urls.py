@@ -6,4 +6,6 @@ app_name = 'usuarios'
 
 urlpatterns = [
     path('', views.home, name='home'),
+    path('usuarios', views.listarusuarios, name='listarusuarios'),
+    path('crearusuario', views.crearusuario, name='crearusuario'),
 ]

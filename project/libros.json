@@ -1,0 +1,138 @@
+[
+    {
+      "titulo": "Cien años de soledad",
+      "autor": "Gabriel García Márquez",
+      "genero": "Realismo mágico"
+    },
+    {
+      "titulo": "El Señor de los Anillos",
+      "autor": "J.R.R. Tolkien",
+      "genero": "Fantasía"
+    },
+    {
+      "titulo": "Orgullo y prejuicio",
+      "autor": "Jane Austen",
+      "genero": "Novela romántica"
+    },
+    {
+      "titulo": "1984",
+      "autor": "George Orwell",
+      "genero": "Ciencia ficción"
+    },
+    {
+      "titulo": "Crimen y castigo",
+      "autor": "Fiódor Dostoievski",
+      "genero": "Novela psicológica"
+    },
+    {
+      "titulo": "El Quijote",
+      "autor": "Miguel de Cervantes",
+      "genero": "Novela picaresca"
+    },
+    {
+      "titulo": "El retrato de Dorian Gray",
+      "autor": "Oscar Wilde",
+      "genero": "Novela gótica"
+    },
+    {
+      "titulo": "Hamlet",
+      "autor": "William Shakespeare",
+      "genero": "Drama"
+    },
+    {
+      "titulo": "Metamorfosis",
+      "autor": "Franz Kafka",
+      "genero": "Novela corta"
+    },
+    {
+      "titulo": "El gran Gatsby",
+      "autor": "F. Scott Fitzgerald",
+      "genero": "Novela social"
+    },
+    {
+      "titulo": "Cumbres borrascosas",
+      "autor": "Emily Brontë",
+      "genero": "Novela gótica"
+    },
+    {
+      "titulo": "El guardián entre el centeno",
+      "autor": "J.D. Salinger",
+      "genero": "Novela de aprendizaje"
+    },
+    {
+      "titulo": "Rayuela",
+      "autor": "Julio Cortázar",
+      "genero": "Novela experimental"
+    },
+    {
+      "titulo": "El proceso",
+      "autor": "Franz Kafka",
+      "genero": "Novela"
+    },
+    {
+      "titulo": "El extranjero",
+      "autor": "Albert Camus",
+      "genero": "Novela corta"
+    },
+    {
+      "titulo": "Los Miserables",
+      "autor": "Victor Hugo",
+      "genero": "Novela histórica"
+    },
+    {
+      "titulo": "Moby Dick",
+      "autor": "Herman Melville",
+      "genero": "Novela"
+    },
+    {
+      "titulo": "El corazón de las tinieblas",
+      "autor": "Joseph Conrad",
+      "genero": "Novela corta"
+    },
+    {
+      "titulo": "El lobo estepario",
+      "autor": "Hermann Hesse",
+      "genero": "Novela filosófica"
+    },
+    {
+      "titulo": "Ana Karenina",
+      "autor": "León Tolstói",
+      "genero": "Novela social"
+    },
+    {
+      "titulo": "Guerra y paz",
+      "autor": "León Tolstói",
+      "genero": "Novela épica"
+    },
+    {
+      "titulo": "Don Quijote de la Mancha",
+      "autor": "Miguel de Cervantes",
+      "genero": "Novela picaresca"
+    },
+    {
+      "titulo": "El conde de Montecristo",
+      "autor": "Alejandro Dumas",
+      "genero": "Novela de aventuras"
+    },
+    {
+      "titulo": "Los viajes de Gulliver",
+      "autor": "Jonathan Swift",
+      "genero": "Novela satírica"
+    },
+    {
+      "titulo": "Las aventuras de Tom Sawyer",
+      "autor": "Mark Twain",
+      "genero": "Novela de aventuras"
+    },
+    {
+      "titulo": "La isla del tesoro",
+      "autor": "Robert Louis Stevenson",
+      "genero": "Novela de aventuras"
+    },
+    {
+      "titulo": "Peter Pan",
+      "autor": "J.M. Barrie",
+      "genero":"Novela de aventuras"
+    }
+]
+  

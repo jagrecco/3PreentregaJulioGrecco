@@ -8,7 +8,7 @@ def home(request):
     return render(request, 'libros/index.html')
 
 #Vistas para libros
-def listarlibros(request,):
+def listarlibros(request):
 
     consulta = request.GET.get("consulta", None)
 
@@ -17,9 +17,37 @@ def listarlibros(request,):
     else:
         query=models.Libro.objects.all()
     
-    #query=models.Libro.objects.all()
     context={'libros': query}
     return render(request, 'libros/listarlibros.html', context)
+
+def crearlibro(request):
+    if request.method == "POST":
+        form = forms.LibrosCrearLibro(request.POST)
+        if form.is_valid:
+            form.save()
+            return redirect("libros:home")
+    else:
+        form = forms.LibrosCrearLibro()
+    return render(request, "libros/crearlibro.html", context={"form": form})
+
+def editarlibro(request, pk : int):
+    query=models.Libro.objects.get(id=pk)
+    if request.method == 'POST':
+        form = forms.LibrosCrearLibro(request.POST, instance=query)
+        if form.is_valid:
+            form.save()
+            return redirect('libros:home')
+    else:
+        form = forms.LibrosCrearLibro(instance=query)
+    return render(request, "libros/crearlibro.html", context={"form": form})
+
+def eliminarlibro(request, pk : int):
+    query=models.Libro.objects.get(id=pk)
+    if request.method == 'POST':
+        query.delete()
+        return redirect('libros:home')
+    
+    return render(request, "libros/eliminarlibro.html", context={"libro": query})
 
 #Vistas para Autores
 def listarautores(request):
