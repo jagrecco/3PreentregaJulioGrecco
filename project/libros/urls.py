@@ -18,9 +18,9 @@ urlpatterns = [
     path('editarautor/<int:pk>',views.editarautor,name='editarautor'),
     path('eliminarautor/<int:pk>',views.eliminarautor,name='eliminarautor'),
   
-    #Rutas para categorias
-    path('categorias',views.listarcategorias,name='listarcategorias'),
-    path('crearcategoria',views.crearcategoria,name='crearcategoria'),
-    path('eliminacategoria/<int:pk>',views.eliminacategoria,name='eliminacategoria'),
-    path('editarcategoria/<int:pk>',views.editarcategoria,name='editarcategoria'),
+    #Rutas para géneros
+    path('generos',views.listargeneros,name='listargeneros'),
+    path('creargenero',views.creargenero,name='creargenero'),
+    path('eliminagenero/<int:pk>',views.eliminagenero,name='eliminagenero'),
+    path('editargenero/<int:pk>',views.editargenero,name='editargenero'),
 ]

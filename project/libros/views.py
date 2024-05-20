@@ -13,7 +13,7 @@ def listarlibros(request):
     consulta = request.GET.get("consulta", None)
 
     if consulta:
-        query = models.Libro.objects.filter(nombre__icontains=consulta)
+        query = models.Libro.objects.filter(titulo__icontains=consulta)
     else:
         query=models.Libro.objects.all()
     
@@ -92,44 +92,44 @@ def eliminarautor(request, pk: int):
     return render(request, "libros/eliminarautor.html", context={"autor": query})
 
 
-#Vistas para Categorias
-def listarcategorias(request):
+#Vistas para Generos
+def listargeneros(request):
 
     consulta=request.GET.get("consulta", None)
 
     if consulta:
-        query = models.Categoria.objects.filter(nombre__icontains=consulta)
+        query = models.Genero.objects.filter(nombre__icontains=consulta)
     else:
-        query=models.Categoria.objects.all()
+        query=models.Genero.objects.all()
 
-    context={'categorias': query}
-    return render(request, 'libros/listarcategorias.html', context)
+    context={'generos': query}
+    return render(request, 'libros/listargeneros.html', context)
 
-def crearcategoria(request):
+def creargenero(request):
     if request.method == "POST":
-        form = forms.LibrosCrearCategoria(request.POST)
+        form = forms.LibrosCrearGenero(request.POST)
         if form.is_valid:
             form.save()
             return redirect("libros:home")
     else:
-        form = forms.LibrosCrearCategoria()
-    return render(request, "libros/crearcategoria.html", context={"form": form})
+        form = forms.LibrosCrearGenero()
+    return render(request, "libros/creargenero.html", context={"form": form})
 
-def eliminacategoria(request, pk:int):
-    query=models.Categoria.objects.get(id=pk)
+def eliminagenero(request, pk:int):
+    query=models.Genero.objects.get(id=pk)
     if request.method == 'POST':
         query.delete()
         return redirect('libros:home')
     
-    return render(request, "libros/eliminacategoria.html", context={"categoria": query})
+    return render(request, "libros/eliminagenero.html", context={"categoria": query})
 
-def editarcategoria(request, pk: int):
-    query=models.Categoria.objects.get(id=pk)
+def editargenero(request, pk: int):
+    query=models.Genero.objects.get(id=pk)
     if request.method == 'POST':
-        form = forms.LibrosCrearCategoria(request.POST, instance=query)
+        form = forms.LibrosCrearGenero(request.POST, instance=query)
         if form.is_valid:
             form.save()
             return redirect('libros:home')
     else:
         form = forms.LibrosCrearAutor(instance=query)
-    return render(request, "libros/editarcategoria.html", context={"form": form})
+    return render(request, "libros/editargenero.html", context={"form": form})
