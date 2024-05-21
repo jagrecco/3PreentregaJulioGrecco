@@ -2,15 +2,23 @@
 
 
 {% block title %}
-        <h1>Página principal Biblioteca</h1>
+    
 {% endblock title %}
 
 {% block content %}
-    <ul style="display: flex; gap: 10px; margin: 0; padding: 0;">
-        <li style="list-style: none;"><a class="btn btn-primary" href='{% url 'usuarios:home' %}'>Usuarios</a></li>
-        <li style="list-style: none;"><a class="btn btn-primary" href='{% url 'libros:home' %}'>Libros</a></li>
-        <li style="list-style: none;"><a class="btn btn-primary" href=''>Prestamos</a></li>
-    </ul>
+
+    {% if user.is_authenticated %}
+        {{mensaje}}
+    {% endif %}
+
+    <div class="container " style="display: flex;justify-content: center;align-items: center;height: 60vh;";>
+        <div class=" ">
+            <strong class="display-3 fw-bold">{{cita}}</strong>
+            <em><p class="display-5 fw-light fst-italic ">{{autor}}</p></em>
+        </div>
+        
+    </div>
+    
 {% endblock content %}
 
 <div class="py-5 ">

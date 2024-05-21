@@ -11,23 +11,34 @@ class LibrosCrearAutor(forms.ModelForm):
             "descripcion": forms.TextInput(attrs={"class": "form-control"}),
         }
 
-class LibrosCrearCategoria(forms.ModelForm):
-    class Meta:
-        model = models.Categoria
-        fields = "__all__"
-        widgets = {
-            "nombre": forms.TextInput(attrs={"class": "form-control"}),
-            "descripcion": forms.TextInput(attrs={"class": "form-control"}),
-        }
+class LibrosCrearEditorial(forms.ModelForm):
+    model=models.Editorial
+    fields = "__all__"
+    widgets = {
+        "nombre": forms.TextInput(attrs={"class": "form-control"}),
+        "pais": forms.TextInput(attrs={"class": "form-control"}),
+    }
+
+class LibrosCrearGenero(forms.ModelForm):
+    model=models.Genero
+    fields = "__all__"
+    widgets = {
+        "nombre": forms.TextInput(attrs={"class": "form-control"}),
+        "descripcion": forms.Textarea(attrs={"class": "form-control"}),
+    }
 
 class LibrosCrearLibro(forms.ModelForm):
     class Meta:
         model = models.Libro
         fields = '__all__'
         widgets = {
-            "nombre": forms.TextInput(attrs={"class": "form-control"}),
+            "titulo": forms.TextInput(attrs={"class": "form-control"}),
             "autor" : forms.Select(attrs={"class": "form-control"}),
-            "categoria" : forms.Select(attrs={"class": "form-control"}),
+            "editorial" : forms.Select(attrs={"class": "form-control"}),
+            "genero" : forms.Select(attrs={"class": "form-control"}),
+            "isbn": forms.TextInput(attrs={"class": "form-control"}),
+            "anio" : forms.NumberInput(attrs={'min': 0}),
+            "descripcion": forms.Textarea(attrs={"class": "form-control"}),
             "stock" : forms.NumberInput(attrs={'min': 0}),
             "existencia" : forms.NumberInput(attrs={'min': 0}),
         }

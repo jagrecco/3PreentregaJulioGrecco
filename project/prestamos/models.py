@@ -9,4 +9,4 @@ class Prestamo(models.Model):
     libro=models.ForeignKey(Libro, on_delete=models.CASCADE, null=True, blank=True)
 
     def __str__(self) -> str:
-        return f'{self.libro} > Fecha préstamo: {self.fechaAlta}'
+        return f'{self.libro.titulo} > Fecha préstamo: {self.fechaAlta}'
