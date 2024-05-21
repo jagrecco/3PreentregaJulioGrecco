@@ -3,7 +3,7 @@
 <nav class="navbar shadow navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
         <a class="navbar-brand" href="{% url 'core:home' %}">
-            <img src= "{% static 'core/img/logo.png' %}" alt="BC" width="40" height="40">
+            <img src= "{% static 'core/img/logo_color.png' %}" alt="BC" width="40" height="40">
         </a>
         <a class="navbar-brand" href="{% url 'core:home' %}">Biblioteca Cervantes</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,7 +11,8 @@
         </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-          
+          {% if user.is_authenticated %}
+            
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Libros
@@ -41,11 +42,28 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href= "{% url 'core:login' %}" >Login</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#">Préstamos</a>
           </li>
+          <li class="nav-item">
+            <span class="nav-link"><strong class="text-bg-success px-3">{{ user.username }}</strong></span>
+          </li>
+          <li class="nav-item">
+            <form action="{% url 'core:logout' %}" method="post">
+              {% csrf_token %}
+              <input type="submit" class="nav-link" value="LogOut">
+            </form>
+          </li>
+          {% else %}
+          <li class="nav-item">
+            <a class="nav-link" href= "#" >Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href= "{% url 'core:login' %}" >LogIn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href= "{% url 'core:registro' %}" >Registrarse</a>
+          </li>
+          {% endif %}
         </ul>
       </div>
     </div>

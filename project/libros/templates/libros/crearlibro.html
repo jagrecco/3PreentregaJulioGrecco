@@ -1,7 +1,11 @@
 {% extends 'core/base.html' %}
 
 {% block title %}
-    <h1>Crear Libro</h1>
+    {% if form.instance.pk %}
+        <h1>Editar Libro</h1>
+        {% else %}
+        <h1>Crear Libro</h1>
+    {% endif %}
 {% endblock title %}
 
 {% block content %}
