@@ -1,3 +1,4 @@
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
 
 from . import forms, models
@@ -8,6 +9,7 @@ def home(request):
     return render(request, 'libros/index.html')
 
 #Vistas para libros
+@login_required
 def listarlibros(request):
 
     consulta = request.GET.get("consulta", None)
@@ -20,6 +22,7 @@ def listarlibros(request):
     context={'libros': query}
     return render(request, 'libros/listarlibros.html', context)
 
+@login_required
 def crearlibro(request):
     if request.method == "POST":
         form = forms.LibrosCrearLibro(request.POST)
@@ -30,6 +33,7 @@ def crearlibro(request):
         form = forms.LibrosCrearLibro()
     return render(request, "libros/crearlibro.html", context={"form": form})
 
+@login_required
 def editarlibro(request, pk : int):
     query=models.Libro.objects.get(id=pk)
     if request.method == 'POST':
@@ -41,6 +45,7 @@ def editarlibro(request, pk : int):
         form = forms.LibrosCrearLibro(instance=query)
     return render(request, "libros/crearlibro.html", context={"form": form})
 
+@login_required
 def eliminarlibro(request, pk : int):
     query=models.Libro.objects.get(id=pk)
     if request.method == 'POST':
@@ -50,6 +55,7 @@ def eliminarlibro(request, pk : int):
     return render(request, "libros/eliminarlibro.html", context={"libro": query})
 
 #Vistas para Autores
+@login_required
 def listarautores(request):
 
     consulta=request.GET.get("consulta", None)
@@ -62,6 +68,7 @@ def listarautores(request):
     context={'autores': query}
     return render(request, 'libros/listarautores.html', context)
 
+@login_required
 def crearautor(request):
     if request.method == "POST":
         form = forms.LibrosCrearAutor(request.POST)
@@ -72,6 +79,7 @@ def crearautor(request):
         form = forms.LibrosCrearAutor()
     return render(request, "libros/crearautor.html", context={"form": form})
 
+@login_required
 def editarautor(request, pk: int):
     query=models.Autor.objects.get(id=pk)
     if request.method == 'POST':
@@ -83,6 +91,7 @@ def editarautor(request, pk: int):
         form = forms.LibrosCrearAutor(instance=query)
     return render(request, "libros/crearautor.html", context={"form": form})
 
+@login_required
 def eliminarautor(request, pk: int):
     query=models.Autor.objects.get(id=pk)
     if request.method == 'POST':
@@ -93,6 +102,7 @@ def eliminarautor(request, pk: int):
 
 
 #Vistas para Generos
+@login_required
 def listargeneros(request):
 
     consulta=request.GET.get("consulta", None)
@@ -105,6 +115,7 @@ def listargeneros(request):
     context={'generos': query}
     return render(request, 'libros/listargeneros.html', context)
 
+@login_required
 def creargenero(request):
     if request.method == "POST":
         form = forms.LibrosCrearGenero(request.POST)
@@ -115,6 +126,7 @@ def creargenero(request):
         form = forms.LibrosCrearGenero()
     return render(request, "libros/creargenero.html", context={"form": form})
 
+@login_required
 def eliminagenero(request, pk:int):
     query=models.Genero.objects.get(id=pk)
     if request.method == 'POST':
@@ -123,6 +135,7 @@ def eliminagenero(request, pk:int):
     
     return render(request, "libros/eliminagenero.html", context={"categoria": query})
 
+@login_required
 def editargenero(request, pk: int):
     query=models.Genero.objects.get(id=pk)
     if request.method == 'POST':

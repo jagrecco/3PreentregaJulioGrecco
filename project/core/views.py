@@ -1,3 +1,4 @@
+
 from django.contrib.auth.views import LoginView
 from django.http import HttpRequest, HttpResponse
 from django.shortcuts import render
@@ -58,3 +59,6 @@ def register(request:HttpRequest)-> HttpResponse:
     else:
         form = CustomUserCreationForm()
     return render(request,"core/registro.html", {"form":form})
+
+def nosotros(request):
+    return render(request, 'core/nosotros.html')

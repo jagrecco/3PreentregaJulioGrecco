@@ -1,21 +1,24 @@
 {% extends 'core/base.html' %}
 
 {% block title %}
-    LogIn
+    
 {% endblock title %}
 
 {% block content %}
 
-    <div class="container ">
-        <h1 class="mt-4 ">Login</h1>
-    </div>
-    <form method="post">
+    <div class="container p-4 shadow" style="max-width: 800px;">
 
-        {% csrf_token %}
-        {{form.as_p}}
-        <input type="hidden" name="next" value="{% url 'core:home' %}">
-        <button type="submit" class="btn btn-light">Ingresar</button>
-        <a href="{% url 'core:home' %}" class="btn btn-light ">Cancelar</a>
-    </form>
+        <h1 class="mt-4 ">LogIn</h1>
+
+        <form method="post">
+            
+            {% csrf_token %}
+            {{form.as_p}}
+            <input  type="hidden" name="next" value="{% url 'core:home' %}">
+            <button type="submit" class="btn btn-light shadow">Ingresar</button>
+            <a href="{% url 'core:home' %}" class="btn btn-light shadow">Cancelar</a>
+        </form>
+
+    </div>
 
 {% endblock content %}
