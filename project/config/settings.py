@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 from django.core.management.utils import get_random_secret_key
+from django.urls import reverse_lazy
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -126,3 +128,10 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+LOGIN_URL = reverse_lazy('core:login')
+LOGIN_REDIRECT_URL =  reverse_lazy('core:home')
+
+MEDIA_ROOT =  os.path.join(BASE_DIR, 'media')
+#MEDIA_ROOT = BASE_DIR / "media"
+MEDIA_URL = "/media/"

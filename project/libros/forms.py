@@ -8,24 +8,27 @@ class LibrosCrearAutor(forms.ModelForm):
         fields = "__all__"
         widgets = {
             "nombre": forms.TextInput(attrs={"class": "form-control"}),
+            "nacionalidad": forms.TextInput(attrs={"class": "form-control"}),
             "descripcion": forms.TextInput(attrs={"class": "form-control"}),
         }
 
 class LibrosCrearEditorial(forms.ModelForm):
-    model=models.Editorial
-    fields = "__all__"
-    widgets = {
-        "nombre": forms.TextInput(attrs={"class": "form-control"}),
-        "pais": forms.TextInput(attrs={"class": "form-control"}),
-    }
+    class Meta:
+        model=models.Editorial
+        fields = "__all__"
+        widgets = {
+            "nombre": forms.TextInput(attrs={"class": "form-control"}),
+            "pais": forms.TextInput(attrs={"class": "form-control"}),
+        }
 
 class LibrosCrearGenero(forms.ModelForm):
-    model=models.Genero
-    fields = "__all__"
-    widgets = {
-        "nombre": forms.TextInput(attrs={"class": "form-control"}),
-        "descripcion": forms.Textarea(attrs={"class": "form-control"}),
-    }
+    class Meta:
+        model=models.Genero
+        fields = "__all__"
+        widgets = {
+            "nombre": forms.TextInput(attrs={"class": "form-control"}),
+            "descripcion": forms.Textarea(attrs={"class": "form-control"}),
+        }
 
 class LibrosCrearLibro(forms.ModelForm):
     class Meta:

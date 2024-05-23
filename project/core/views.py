@@ -1,6 +1,7 @@
+
 from django.contrib.auth.views import LoginView
 from django.http import HttpRequest, HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 import random
 
@@ -44,17 +45,22 @@ def home(request):
     numero_de_cita=random.randint(0, 29)
     return render(request, "core/index.html", {"cita": citas[numero_de_cita]["cita"],"autor": citas[numero_de_cita]["autor"]})
 
+#Ingreso usuario registrado
 class CustomLoginView(LoginView):
     authentication_form = CustonAuthenticationForm
     template_name = "core/login.html"
 
+#Registro usuario nuevo
 def register(request:HttpRequest)-> HttpResponse:
     if request.method == "POST":
         form = CustomUserCreationForm(request.POST)
         if form.is_valid():
             username=form.cleaned_data["username"]
             form.save()
-            return render(request,"core/index.html", {"mensaje": "Usuario creado"})
+            return render(request, "core/index.html", {"mensaje": "Usuario creado"})
     else:
         form = CustomUserCreationForm()
     return render(request,"core/registro.html", {"form":form})
+
+def nosotros(request):
+    return render(request, 'core/nosotros.html')
