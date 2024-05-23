@@ -1,29 +1,22 @@
 {% extends 'core/base.html' %}
 
 {% block title %}
-    <h1>Catálogo de Autores</h1>
+    <h1>Autores</h1>
 {% endblock title %}
 
 {% block content %}
 
-<div style="display: flex; flex-wrap: wrap; gap: 15px;" class="py-3 ">
+<div style="display: flex; flex-wrap: wrap; gap: 15px;" class="py-1 ">
 
     <div class="">
         <a class="btn btn-light shadow" href='{% url 'libros:crearautor' %}'>Nuevo Autor</a>
     </div>
 
-    <div class="">
-        <a class="btn btn-light shadow" href='{% url 'libros:home' %}'>Gestión de Libros</a>
-    </div>
-    
-    <div class="">
-        <a class="btn btn-light shadow" href='{% url 'core:home' %}'>Página principal</a>
-    </div>
 </div>
 
 <div style="max-width: 50%;">
     
-    <div class="py-lg-4  " styles="width:40%">
+    <div class="py-1  " styles="width:40%">
         <form action="{% url 'libros:listarautores' %}" method="get">
             <label class="form-label">Enter para filtrar</label>
             <input class="form-control shadow " type="text" name="consulta" placeholder="Buscar...">

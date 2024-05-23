@@ -45,10 +45,12 @@ def home(request):
     numero_de_cita=random.randint(0, 29)
     return render(request, "core/index.html", {"cita": citas[numero_de_cita]["cita"],"autor": citas[numero_de_cita]["autor"]})
 
+#Ingreso usuario registrado
 class CustomLoginView(LoginView):
     authentication_form = CustonAuthenticationForm
     template_name = "core/login.html"
 
+#Registro usuario nuevo
 def register(request:HttpRequest)-> HttpResponse:
     if request.method == "POST":
         form = CustomUserCreationForm(request.POST)

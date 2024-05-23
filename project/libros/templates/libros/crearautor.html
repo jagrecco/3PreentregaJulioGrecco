@@ -1,28 +1,24 @@
 {% extends 'core/base.html' %}
 
 {% block title %}
-    <h1>Crear Autor</h1>
 {% endblock title %}
 
 {% block content %}
 
-<div style="display: flex;gap: 15px;" class="py-3 ">
-    <div class="">
-        <a class="btn btn-primary" href='{% url 'libros:home' %}'>Libros</a>
-    </div>
+<div class="container p-4 shadow" style="max-width: 800px;">
     
-    <div class="">
-        <a class="btn btn-primary" href='{% url 'core:home' %}'>Página principal</a>
-    </div>
+    <h1>Nuevo Autor</h1>
+    <form method="post">
+        {% csrf_token %}
+        <table>
+            {{ form.as_table }}
+        </table>
+        <button type="submit" class="btn btn-light shadow">Guardar</button>
+    </form>
+    
 </div>
 
-<form method="post">
-    {% csrf_token %}
-    <table>
-        {{ form.as_table }}
-    </table>
-    <button type="submit" class="btn btn-primary">Guardar</button>
-</form>
+
 
 
 {% endblock content %}

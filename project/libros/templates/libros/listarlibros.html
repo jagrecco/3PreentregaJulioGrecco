@@ -6,18 +6,10 @@
 
 {% block content %}
 
-<div style="display: flex;gap: 15px;" class="py-3 ">
+<div style="display: flex;gap: 15px;" class="py-1 ">
 
     <div class="">
         <a class="btn btn-light shadow" href='{% url 'libros:crearlibro' %}'>Nuevo Libro</a>
-    </div>
-
-    <div class="">
-        <a class="btn btn-light shadow" href='{% url 'libros:home' %}'>Gestión de Libros</a>
-    </div>
-    
-    <div class="">
-        <a class="btn btn-light shadow" href='{% url 'core:home' %}'>Página principal</a>
     </div>
     
 </div>
@@ -33,13 +25,19 @@
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
     {% for libro in libros  %}
-        <div class="card shadow" style="width: 18rem;">
+        <div class="card shadow" style="width: 25rem;">
             <div class="card-body">
-                <h5 class="card-title">{{libro.titulo}}</h5>
-                <h6 class="card-subtitle mb-2 text-muted">{{libro.autor}}</h6>
-                <p class="card-text">{{libro.genero}}</p>
-                <p class="card-text">En Stock: <strong>{{libro.stock}}</strong></p>
-                <p class="card-text">Disponible: <strong>{{libro.existencia}}</strong></p>
+                <h3 class="card-title my-4 ">{{libro.titulo}}</h5>
+                <h6 class="card-subtitle mb-2"><strong>Autor: </strong>{{libro.autor}}</h6>
+                <p class="card-text"><strong>Género: </strong> {{libro.genero}}</p>
+                <p class="card-text"><strong>Editorial: </strong> {{libro.editorial}}</p>
+                <p class="card-text"><strong>ISBN: </strong> {{libro.isbn}}</p>
+                <p class="card-text"><strong>Año: </strong>{{libro.anio}}</p>
+                <p class="card-text"><strong>Idioma: </strong>{{libro.idioma}}</p>
+                <p class="card-text"><strong>Páginas: </strong>{{libro.paginas}}</p>
+                <p class="card-text">{{libro.descripcion}}</p>
+                <p class="card-text"><strong>Stock: </strong> {{libro.stock}}</p>
+                <p class="card-text"><strong>Disponible: </strong> {{libro.existencia}}</p>
             </div>
 
             <!-- Menú Libro -->

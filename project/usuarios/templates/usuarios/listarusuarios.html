@@ -1,5 +1,7 @@
 {% extends 'core/base.html' %}
 
+{% load static %}
+
 {% block title %}
     <h1>Listar Usuarios</h1>
 {% endblock title %}
@@ -21,11 +23,21 @@
     <div style="display: flex; gap: 20px;">
         {% for usuario in usuarios  %}
 
-            <div class="card" style="width: 18rem;">
+            <div class="card shadow " style="width: 18rem;">
                 <div class="card-body">
-                    <h5 class="card-title">{{usuario.name}}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Rol: <strong>{{usuario.rol}}</strong></h6>
-                    <p class="card-text">PW: {{usuario.pw}}</p>
+                    <h5 class="card-title"><strong>Usuario:</strong> {{usuario.usuario.username }}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted"><strong>Rol:</strong> <strong>{{usuario.rol}}</strong></h6>
+                    <p class="card-text"><strong>Mail:</strong> {{usuario.mail}}</p>
+
+                    {% if usuario.avatar %}
+
+                        <img src="{{usuario.avatar.url}}" alt="Avatar">
+
+                        {% else %}
+
+                        <img src= "{% static 'core/img/avatar.svg' %}" alt="BC" width="128" height="128">
+
+                    {% endif %}
                 </div>
 
                 <!-- Menú usuarios -->

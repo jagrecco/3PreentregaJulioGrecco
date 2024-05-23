@@ -16,7 +16,7 @@
         </div>
     </div>
 
-    <form method="post">
+    <form method="post" enctype="multipart/form-data" novalidate>
         {% csrf_token %}
         <table>
             {{ form.as_table }}

@@ -117,6 +117,7 @@ def listargeneros(request):
 
 @login_required
 def creargenero(request):
+    
     if request.method == "POST":
         form = forms.LibrosCrearGenero(request.POST)
         if form.is_valid:
