@@ -34,12 +34,12 @@
             </ul>
           </li>
           
-          <li class="nav-item">
-            <a class="nav-link" href="{% url 'prestamos:listarprestamos' %}">Préstamos</a>
-          </li>
-
           {% if user.is_staff %}
           
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'prestamos:listarprestamos' %}">Préstamos</a>
+            </li>
+
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Usuarios
@@ -51,7 +51,11 @@
               
               </ul>
             </li>
-
+            
+            <strong class="text-bg-success px-2">
+              <span class="nav-link light"> STAFF </span>
+            </strong>
+            
           {% endif %}
 
           <li class="nav-item">

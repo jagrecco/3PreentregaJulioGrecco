@@ -6,6 +6,8 @@
 
 {% block content %}
 
+{% if user.is_staff %}
+
 <div style="display: flex; flex-wrap: wrap; gap: 15px;" class="py-1 ">
 
     <div class="">
@@ -13,6 +15,8 @@
     </div>
 
 </div>
+    
+{% endif %}
 
 <div style="max-width: 50%;">
     
@@ -34,6 +38,8 @@
                 <p class="card-text">{{autor.descripcion}}</p>
 
                 <!-- Menú autores -->
+                {% if user.is_staff %}
+                
                 <div style="display: flex;gap: 15px;" class="py-3 ">
                     <div class="">
                         <a class="btn btn-light shadow" href='{% url 'libros:editarautor' autor.id %}'>
@@ -51,6 +57,8 @@
                     </div>
                     
                 </div>
+                    
+                {% endif %}
 
             </div>
         </div>

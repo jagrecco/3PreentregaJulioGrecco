@@ -9,7 +9,7 @@ class LibrosCrearAutor(forms.ModelForm):
         widgets = {
             "nombre": forms.TextInput(attrs={"class": "form-control"}),
             "nacionalidad": forms.TextInput(attrs={"class": "form-control"}),
-            "descripcion": forms.TextInput(attrs={"class": "form-control"}),
+            "descripcion": forms.Textarea(attrs={"class": "form-control"}),
         }
 
 class LibrosCrearEditorial(forms.ModelForm):

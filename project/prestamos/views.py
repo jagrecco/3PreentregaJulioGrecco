@@ -31,7 +31,7 @@ def crearprestamo(request):
 
         if form.is_valid:
             form.save()
-            return redirect("prestamos:home")
+            return redirect("prestamos:listarprestamos")
         
     else:  #si el request es GET entonces
         form = forms.PrestamoCrearPrestamo()
