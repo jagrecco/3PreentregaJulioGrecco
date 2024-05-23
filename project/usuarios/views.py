@@ -1,12 +1,15 @@
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
 from . import models, forms
 
+@login_required
 def home(request):
         
     query=models.Usuario.objects.all()
     context={'usuarios': query}
     return render(request, 'usuarios/index.html', context)
 
+@login_required
 def listarusuarios(request):
 
     consulta = request.GET.get("consulta", None)
@@ -19,6 +22,7 @@ def listarusuarios(request):
     context={'usuarios': query}
     return render(request, 'usuarios/listarusuarios.html', context)
 
+@login_required
 def crearusuario(request):
 
     if request.method == "POST":

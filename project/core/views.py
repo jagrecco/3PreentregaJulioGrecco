@@ -1,7 +1,7 @@
 
 from django.contrib.auth.views import LoginView
 from django.http import HttpRequest, HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 import random
 
@@ -57,7 +57,7 @@ def register(request:HttpRequest)-> HttpResponse:
         if form.is_valid():
             username=form.cleaned_data["username"]
             form.save()
-            return render(request,"core/index.html", {"mensaje": "Usuario creado"})
+            return render(request, "core/index.html", {"mensaje": "Usuario creado"})
     else:
         form = CustomUserCreationForm()
     return render(request,"core/registro.html", {"form":form})

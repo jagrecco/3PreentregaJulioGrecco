@@ -1,22 +1,22 @@
 {% extends 'core/base.html' %}
 
 {% block title %}
+
 {% endblock title %}
 
 {% block content %}
 
 <div class="container p-4 shadow" style="max-width: 800px;">
     
-    <h1>Nuevo Autor</h1>
+    <h1>Nuevo Préstamo</h1>
     <form method="post">
         {% csrf_token %}
         <table>
             {{ form.as_table }}
         </table>
-        <button type="submit" class="btn btn-light shadow">Guardar</button>
+        <button type="submit" class="btn btn-light shadow my-2 ">Guardar</button>
     </form>
     
 </div>
-
 
 {% endblock content %}

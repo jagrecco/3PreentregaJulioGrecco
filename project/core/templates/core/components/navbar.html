@@ -11,7 +11,8 @@
         </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-          {% if user.is_authenticated %}
+
+          {% if user.is_authenticated %} 
             
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -32,18 +33,27 @@
               <li><a class="dropdown-item" href="#">Listar Categorías</a></li>
             </ul>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Materiales
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Listar Materiales</a></li>
-              <li><a class="dropdown-item" href="#">Listar Categorías</a></li>
-            </ul>
-          </li>
+          
           <li class="nav-item">
-            <a class="nav-link" href="#">Préstamos</a>
+            <a class="nav-link" href="{% url 'prestamos:listarprestamos' %}">Préstamos</a>
           </li>
+
+          {% if user.is_staff %}
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Usuarios
+              </a>
+              <ul class="dropdown-menu">
+                
+                <li><a class="dropdown-item" href="{% url 'usuarios:listarusuarios' %}">Listar Usuarios</a></li>
+                <li><a class="dropdown-item" href="{% url 'usuarios:crearusuario' %}">Nuevo Usuario</a></li>
+              
+              </ul>
+            </li>
+
+          {% endif %}
+
           <li class="nav-item">
             <span class="nav-link"><strong class="text-bg-success px-3">
               <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 20 20">
@@ -59,7 +69,9 @@
               <input type="submit" class="nav-link" value="LogOut">
             </form>
           </li>
+
           {% else %}
+
           <li class="nav-item">
             <a class="nav-link" href= "{% url 'core:nosotros' %}" >Nosotros</a>
           </li>
