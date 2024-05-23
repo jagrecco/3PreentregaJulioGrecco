@@ -9,9 +9,9 @@ class Rol(models.Model):
         return self.nombre
 
 class Usuario(models.Model):
-    usuario = models.OneToOneField(User, on_delete=models.SET_NULL, null=True, related_name="usuario")
-    mail = models.EmailField(max_length=250, unique=True, blank=False, null=True)
-    rol= models.ForeignKey(Rol, on_delete=models.SET_NULL, null=True, blank=True, related_name = 'rol')
+    usuario = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
+    mail = models.EmailField(max_length=250, default='', blank=True, null=True)
+    rol= models.ForeignKey(Rol, on_delete=models.SET_NULL, null=True, blank=True)
     avatar = models.ImageField(upload_to='avatares', null=True, blank=True)
 
     def __str__(self):

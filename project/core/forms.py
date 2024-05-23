@@ -16,12 +16,7 @@ class CustomUserCreationForm(UserCreationForm):
     class Meta:
         model = User
         fields = ["username", "password1", "password2"]
-        #help_texts = {k: "" for k in fields}
-        help_texts = {
-            'username': None,
-            'password1': None,
-            'password2': None,
-        }
+        help_texts = {k: "" for k in fields}
         
         widgets = {
             "username": forms.TextInput(attrs={"class": "form-control"}),

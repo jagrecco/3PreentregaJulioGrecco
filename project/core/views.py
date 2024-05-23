@@ -52,8 +52,11 @@ class CustomLoginView(LoginView):
 
 #Registro usuario nuevo
 def register(request:HttpRequest)-> HttpResponse:
+
     if request.method == "POST":
+
         form = CustomUserCreationForm(request.POST)
+
         if form.is_valid():
             username=form.cleaned_data["username"]
             form.save()
