@@ -1,0 +1,452 @@
+[
+        {
+            "id": 1,
+            "titulo": "Cien años de soledad",
+            "autor": "Gabriel García Márquez",
+            "genero_id": 1,
+            "anio_publicacion": 1967,
+            "reseña": "La obra maestra del escritor colombiano Gabriel García Márquez que narra la historia de la familia Buendía a lo largo de varias generaciones en el ficticio pueblo de Macondo.",
+            "isbn": "978-84-376-0494-7"
+        },
+        {
+            "id": 2,
+            "titulo": "El amor en los tiempos del cólera",
+            "autor": "Gabriel García Márquez",
+            "genero_id": 1,
+            "anio_publicacion": 1985,
+            "reseña": "Otra gran obra de Gabriel García Márquez que cuenta la historia de amor entre Florentino Ariza y Fermina Daza a lo largo de más de cincuenta años en un contexto de epidemia de cólera.",
+            "isbn": "978-84-9838-399-3"
+        },
+        {
+            "id": 3,
+            "titulo": "Don Quijote de la Mancha",
+            "autor": "Miguel de Cervantes Saavedra",
+            "genero_id": 2,
+            "anio_publicacion": 1605,
+            "reseña": "La obra cumbre de Miguel de Cervantes Saavedra que narra las aventuras del hidalgo Alonso Quijano, quien enloquece leyendo libros de caballería y decide salir en busca de aventuras como Don Quijote.",
+            "isbn": "978-84-249-3565-6"
+        },
+        {
+            "id": 4,
+            "titulo": "Romeo y Julieta",
+            "autor": "William Shakespeare",
+            "genero_id": 3,
+            "anio_publicacion": 1597,
+            "reseña": "Una de las obras más conocidas de William Shakespeare que cuenta la historia de amor imposible entre Romeo Montesco y Julieta Capuleto en la ciudad de Verona.",
+            "isbn": "978-84-9814-438-9"
+        },
+        {
+            "id": 5,
+            "titulo": "Hamlet",
+            "autor": "William Shakespeare",
+            "genero_id": 3,
+            "anio_publicacion": 1600,
+            "reseña": "Otra obra destacada de William Shakespeare que gira en torno a Hamlet, príncipe de Dinamarca, y su venganza por la muerte de su padre.",
+            "isbn": "978-84-206-3611-5"
+        },
+        {
+            "id": 6,
+            "titulo": "1984",
+            "autor": "George Orwell",
+            "genero_id": 4,
+            "anio_publicacion": 1949,
+            "reseña": "La famosa novela distópica de George Orwell que describe un futuro totalitario en el que el gobierno controla todos los aspectos de la vida de los ciudadanos.",
+            "isbn": "978-84-9759-682-2"
+        },
+        {
+            "id": 7,
+            "titulo": "Rebelión en la granja",
+            "autor": "George Orwell",
+            "genero_id": 5,
+            "anio_publicacion": 1945,
+            "reseña": "Otra obra importante de George Orwell que utiliza animales de una granja para representar a figuras políticas y satirizar el régimen totalitario soviético.",
+            "isbn": "978-84-667-5861-3"
+        },
+        {
+            "id": 8,
+            "titulo": "El señor de los anillos: La comunidad del anillo",
+            "autor": "J.R.R. Tolkien",
+            "genero_id": 6,
+            "anio_publicacion": 1954,
+            "reseña": "La primera parte de la trilogía épica de J.R.R. Tolkien que sigue las aventuras de Frodo Bolsón y su misión para destruir el Anillo Único.",
+            "isbn": "978-84-450-7110-5"
+        },
+        {
+            "id": 9,
+            "titulo": "El Hobbit",
+            "autor": "J.R.R. Tolkien",
+            "genero_id": 6,
+            "anio_publicacion": 1937,
+            "reseña": "El famoso relato de J.R.R. Tolkien que sigue al hobbit Bilbo Bolsón en su búsqueda del tesoro custodiado por el dragón Smaug.",
+            "isbn": "978-84-450-7128-0"
+        },
+        {
+            "id": 10,
+            "titulo": "Harry Potter y la piedra filosofal",
+            "autor": "J.K. Rowling",
+            "genero_id": 7,
+            "anio_publicacion": 1997,
+            "reseña": "El primer libro de la serie de Harry Potter que presenta al joven mago y su entrada en la escuela de magia Hogwarts.",
+            "isbn": "978-84-9838-625-3"
+        },
+        {
+            "id": 11,
+            "titulo": "Harry Potter y la cámara secreta",
+            "autor": "J.K. Rowling",
+            "genero_id": 7,
+            "anio_publicacion": 1998,
+            "reseña": "El segundo libro de la serie de Harry Potter que sigue las aventuras de Harry y sus amigos mientras investigan los misterios que acechan Hogwarts.",
+            "isbn": "978-84-9838-693-2"
+        },
+        {
+            "id": 12,
+            "titulo": "Harry Potter y el prisionero de Azkaban",
+            "autor": "J.K. Rowling",
+            "genero_id": 7,
+            "anio_publicacion": 1999,
+            "reseña": "El tercer libro de la serie de Harry Potter en el que Harry descubre secretos sobre su familia mientras enfrenta a un peligroso criminal.",
+            "isbn": "978-84-9838-903-2"
+        },
+        {
+            "id": 13,
+            "titulo": "Matar un ruiseñor",
+            "autor": "Harper Lee",
+            "genero_id": 8,
+            "anio_publicacion": 1960,
+            "reseña": "Una novela clásica de Harper Lee que aborda temas de racismo y justicia a través de la historia de Atticus Finch y su hija Scout en el sur de Estados Unidos.",
+            "isbn": "978-84-9066-129-6"
+        },
+        {
+            "id": 14,
+            "titulo": "Crimen y castigo",
+            "autor": "Fiodor Dostoievski",
+            "genero_id": 9,
+            "anio_publicacion": 1866,
+            "reseña": "Una de las obras más importantes de la literatura rusa que sigue la historia de Rodion Raskolnikov, un estudiante que comete un asesinato y lidia con su conciencia.",
+            "isbn": "978-84-670-3732-9"
+        },
+        {
+            "id": 15,
+            "titulo": "Orgullo y prejuicio",
+            "autor": "Jane Austen",
+            "genero_id": 10,
+            "anio_publicacion": 1813,
+            "reseña": "Una novela clásica de Jane Austen que narra la historia de Elizabeth Bennet y su complicada relación con el rico y orgulloso Sr. Darcy.",
+            "isbn": "978-84-670-3017-4"
+        },
+        {
+            "id": 16,
+            "titulo": "Cumbres borrascosas",
+            "autor": "Emily Brontë",
+            "genero_id": 10,
+            "anio_publicacion": 1847,
+            "reseña": "Una novela gótica escrita por Emily Brontë que cuenta la historia de Catherine y Heathcliff, dos amantes atormentados por pasiones intensas y vengativas.",
+            "isbn": "978-84-376-0053-6"
+        },
+        {
+            "id": 17,
+            "titulo": "Madame Bovary",
+            "autor": "Gustave Flaubert",
+            "genero_id": 11,
+            "anio_publicacion": 1857,
+            "reseña": "Una novela realista escrita por Gustave Flaubert que critica la vida provinciana y sigue la insatisfacción y desilusión de Emma Bovary en su matrimonio.",
+            "isbn": "978-84-206-0655-7"
+        },
+        {
+            "id": 18,
+            "titulo": "Ana Karenina",
+            "autor": "León Tolstói",
+            "genero_id": 11,
+            "anio_publicacion": 1877,
+            "reseña": "Una novela magistral de León Tolstói que explora temas de amor, infidelidad y sociedad a través de la historia de Ana Karenina y su relación con el Conde Vronski.",
+            "isbn": "978-84-376-0494-7"
+        },
+        {
+            "id": 19,
+            "titulo": "La metamorfosis",
+            "autor": "Franz Kafka",
+            "genero_id": 12,
+            "anio_publicacion": 1915,
+            "reseña": "Un relato surrealista de Franz Kafka que sigue la transformación de Gregor Samsa en un insecto y cómo esto afecta su relación con su familia.",
+            "isbn": "978-84-206-5020-0"
+        },
+        {
+            "id": 20,
+            "titulo": "El proceso",
+            "autor": "Franz Kafka",
+            "genero_id": 12,
+            "anio_publicacion": 1925,
+            "reseña": "Otra obra importante de Franz Kafka que sigue el extraño proceso legal al que es sometido Joseph K. sin que se le informe de qué está acusado.",
+            "isbn": "978-84-670-0923-8"
+        },
+        {
+            "id": 21,
+            "titulo": "Crónica de una muerte anunciada",
+            "autor": "Gabriel García Márquez",
+            "genero_id": 1,
+            "anio_publicacion": 1981,
+            "reseña": "Una novela corta de Gabriel García Márquez que narra el asesinato de Santiago Nasar y explora los eventos que llevan a su muerte a pesar de que todos conocen su destino.",
+            "isbn": "978-84-376-0388-9"
+        },
+        {
+            "id": 22,
+            "titulo": "El alquimista",
+            "autor": "Paulo Coelho",
+            "genero_id": 13,
+            "anio_publicacion": 1988,
+            "reseña": "Una obra de Paulo Coelho que sigue la búsqueda de un joven pastor andaluz llamado Santiago para encontrar su tesoro personal y cumplir su destino.",
+            "isbn": "978-84-08-07211-4"
+        },
+        {
+            "id": 23,
+            "titulo": "El código Da Vinci",
+            "autor": "Dan Brown",
+            "genero_id": 14,
+            "anio_publicacion": 2003,
+            "reseña": "Un thriller de misterio de Dan Brown que sigue al simbólogo Robert Langdon mientras investiga un asesinato en el Louvre y descubre un secreto ancestral.",
+            "isbn": "978-84-9759-766-9"
+        },
+        {
+            "id": 24,
+            "titulo": "La sombra del viento",
+            "autor": "Carlos Ruiz Zafón",
+            "genero_id": 15,
+            "anio_publicacion": 2001,
+            "reseña": "La primera entrega de la serie del Cementerio de los Libros Olvidados de Carlos Ruiz Zafón que sigue al joven Daniel Sempere mientras descubre un libro misterioso que cambiará su vida para siempre.",
+            "isbn": "978-84-08-08915-9"
+        },
+        {
+            "id": 25,
+            "titulo": "Los pilares de la Tierra",
+            "autor": "Ken Follett",
+            "genero_id": 16,
+            "anio_publicacion": 1989,
+            "reseña": "Una novela histórica de Ken Follett que sigue la construcción de una catedral en el ficticio pueblo de Kingsbridge durante el siglo XII.",
+            "isbn": "978-84-08-08915-9"
+        },
+        {
+            "id": 26,
+            "titulo": "El juego de Ender",
+            "autor": "Orson Scott Card",
+            "genero_id": 17,
+            "anio_publicacion": 1985,
+            "reseña": "El primer libro de la saga de Ender de Orson Scott Card que sigue las aventuras de Ender Wiggin mientras entrena en la Escuela de Batalla para luchar contra una raza alienígena.",
+            "isbn": "978-84-450-7705-3"
+        },
+        {
+            "id": 27,
+            "titulo": "La hoguera de las vanidades",
+            "autor": "Tom Wolfe",
+            "genero_id": 18,
+            "anio_publicacion": 1987,
+            "reseña": "Una sátira de Tom Wolfe que critica la sociedad de la década de 1980 en Nueva York a través de la historia de Sherman McCoy, un exitoso banquero de inversiones.",
+            "isbn": "978-84-204-3284-5"
+        },
+        {
+            "id": 28,
+            "titulo": "El curioso incidente del perro a medianoche",
+            "autor": "Mark Haddon",
+            "genero_id": 19,
+            "anio_publicacion": 2003,
+            "reseña": "Una novela de misterio de Mark Haddon que sigue a Christopher Boone, un niño con habilidades especiales, mientras investiga la muerte de un perro en su vecindario.",
+            "isbn": "978-84-322-1044-2"
+        },
+        {
+            "id": 29,
+            "titulo": "Los hombres que no amaban a las mujeres",
+            "autor": "Stieg Larsson",
+            "genero_id": 20,
+            "anio_publicacion": 2005,
+            "reseña": "El primer libro de la trilogía Millenium de Stieg Larsson que sigue al periodista Mikael Blomkvist y la hacker Lisbeth Salander mientras investigan la desaparición de una joven.",
+            "isbn": "978-84-397-2238-2"
+        },
+        {
+            "id": 30,
+            "titulo": "La chica que soñaba con una cerilla y un bidón de gasolina",
+            "autor": "Stieg Larsson",
+            "genero_id": 20,
+            "anio_publicacion": 2006,
+            "reseña": "La segunda entrega de la trilogía Millenium de Stieg Larsson que sigue la lucha de Lisbeth Salander por su vida mientras Mikael Blomkvist investiga un complot criminal.",
+            "isbn": "978-84-397-2428-7"
+        },
+        {
+            "id": 31,
+            "titulo": "La chica que jugaba con fuego",
+            "autor": "Stieg Larsson",
+            "genero_id": 20,
+            "anio_publicacion": 2007,
+            "reseña": "El tercer libro de la trilogía Millenium de Stieg Larsson que sigue la investigación de Mikael Blomkvist para limpiar el nombre de Lisbeth Salander después de que ella sea acusada de un triple asesinato.",
+            "isbn": "978-84-397-2500-0"
+        },
+        {
+            "id": 32,
+            "titulo": "La naranja mecánica",
+            "autor": "Anthony Burgess",
+            "genero_id": 4,
+            "anio_publicacion": 1962,
+            "reseña": "Una novela distópica de Anthony Burgess que sigue las aventuras del delincuente juvenil Alex DeLarge mientras es sometido a un experimento de modificación de la conducta.",
+            "isbn": "978-84-322-0951-4"
+        },
+        {
+            "id": 33,
+            "titulo": "Un mundo feliz",
+            "autor": "Aldous Huxley",
+            "genero_id": 4,
+            "anio_publicacion": 1932,
+            "reseña": "Una novela distópica de Aldous Huxley que describe una sociedad futura en la que la población está drogada y controlada para mantener la estabilidad social.",
+            "isbn": "978-84-204-6475-3"
+        },
+        {
+            "id": 34,
+            "titulo": "Moby Dick",
+            "autor": "Herman Melville",
+            "genero_id": 21,
+            "anio_publicacion": 1851,
+            "reseña": "Una novela clásica de Herman Melville que sigue al capitán Ahab en su obsesiva búsqueda de venganza contra el gran cachalote blanco, Moby Dick.",
+            "isbn": "978-84-206-3708-2"
+        },
+        {
+            "id": 35,
+            "titulo": "Las aventuras de Tom Sawyer",
+            "autor": "Mark Twain",
+            "genero_id": 22,
+            "anio_publicacion": 1876,
+            "reseña": "Una novela clásica de Mark Twain que sigue las aventuras de Tom Sawyer, un niño travieso, en el pueblo ficticio de San Petersburgo, inspirado en Hannibal, Missouri.",
+            "isbn": "978-84-9793-411-9"
+        },
+        {
+            "id": 36,
+            "titulo": "Las aventuras de Huckleberry Finn",
+            "autor": "Mark Twain",
+            "genero_id": 22,
+            "anio_publicacion": 1884,
+            "reseña": "La secuela de Las aventuras de Tom Sawyer, también de Mark Twain, que sigue las aventuras del joven Huck Finn mientras navega por el río Mississippi con un esclavo fugitivo.",
+            "isbn": "978-84-206-7181-2"
+        },
+        {
+            "id": 37,
+            "titulo": "El retrato de Dorian Gray",
+            "autor": "Oscar Wilde",
+            "genero_id": 23,
+            "anio_publicacion": 1890,
+            "reseña": "Una novela de Oscar Wilde que explora la vanidad y la moralidad a través de la historia de Dorian Gray, un hombre cuya imagen envejece mientras él permanece joven y hermoso.",
+            "isbn": "978-84-397-1442-0"
+        },
+        {
+            "id": 38,
+            "titulo": "Drácula",
+            "autor": "Bram Stoker",
+            "genero_id": 23,
+            "anio_publicacion": 1897,
+            "reseña": "Una novela de terror gótico de Bram Stoker que sigue la historia del conde Drácula mientras busca expandir su dominio no muerto en la Inglaterra victoriana.",
+            "isbn": "978-84-376-0495-4"
+        },
+        {
+            "id": 39,
+            "titulo": "Lolita",
+            "autor": "Vladimir Nabokov",
+            "genero_id": 24,
+            "anio_publicacion": 1955,
+            "reseña": "Una polémica novela de Vladimir Nabokov que narra la obsesión de Humbert Humbert, un profesor de literatura, por una niña de doce años llamada Dolores Haze.",
+            "isbn": "978-84-663-2883-8"
+        },
+        {
+            "id": 40,
+            "titulo": "El gran Gatsby",
+            "autor": "F. Scott Fitzgerald",
+            "genero_id": 25,
+            "anio_publicacion": 1925,
+            "reseña": "Una novela de F. Scott Fitzgerald que sigue la historia de Jay Gatsby, un misterioso millonario que organiza suntuosas fiestas en Long Island durante la década de 1920.",
+            "isbn": "978-84-670-3058-7"
+        },
+        {
+            "id": 41,
+            "titulo": "Los miserables",
+            "autor": "Victor Hugo",
+            "genero_id": 26,
+            "anio_publicacion": 1862,
+            "reseña": "Una novela clásica de Victor Hugo que sigue las vidas entrelazadas de varios personajes, incluido el exconvicto Jean Valjean, en la Francia del siglo XIX.",
+            "isbn": "978-84-670-3753-4"
+        },
+        {
+            "id": 42,
+            "titulo": "Cien años de soledad",
+            "autor": "Gabriel García Márquez",
+            "genero_id": 1,
+            "anio_publicacion": 1967,
+            "reseña": "La obra maestra del escritor colombiano Gabriel García Márquez que narra la historia de la familia Buendía a lo largo de varias generaciones en el ficticio pueblo de Macondo.",
+            "isbn": "978-84-376-0494-7"
+        },
+        {
+            "id": 43,
+            "titulo": "El amor en los tiempos del cólera",
+            "autor": "Gabriel García Márquez",
+            "genero_id": 1,
+            "anio_publicacion": 1985,
+            "reseña": "Otra gran obra de Gabriel García Márquez que cuenta la historia de amor entre Florentino Ariza y Fermina Daza a lo largo de más de cincuenta años en un contexto de epidemia de cólera.",
+            "isbn": "978-84-9838-399-3"
+        },
+        {
+            "id": 44,
+            "titulo": "Don Quijote de la Mancha",
+            "autor": "Miguel de Cervantes Saavedra",
+            "genero_id": 2,
+            "anio_publicacion": 1605,
+            "reseña": "La obra cumbre de Miguel de Cervantes Saavedra que narra las aventuras del hidalgo Alonso Quijano, quien enloquece leyendo libros de caballería y decide salir en busca de aventuras como Don Quijote.",
+            "isbn": "978-84-249-3565-6"
+        },
+        {
+            "id": 45,
+            "titulo": "Romeo y Julieta",
+            "autor": "William Shakespeare",
+            "genero_id": 3,
+            "anio_publicacion": 1597,
+            "reseña": "Una de las obras más conocidas de William Shakespeare que cuenta la historia de amor imposible entre Romeo Montesco y Julieta Capuleto en la ciudad de Verona.",
+            "isbn": "978-84-9814-438-9"
+        },
+        {
+            "id": 46,
+            "titulo": "Hamlet",
+            "autor": "William Shakespeare",
+            "genero_id": 3,
+            "anio_publicacion": 1600,
+            "reseña": "Otra obra destacada de William Shakespeare que gira en torno a Hamlet, príncipe de Dinamarca, y su venganza por la muerte de su padre.",
+            "isbn": "978-84-206-3611-5"
+        },
+        {
+            "id": 47,
+            "titulo": "1984",
+            "autor": "George Orwell",
+            "genero_id": 4,
+            "anio_publicacion": 1949,
+            "reseña": "La famosa novela distópica de George Orwell que describe un futuro totalitario en el que el gobierno controla todos los aspectos de la vida de los ciudadanos.",
+            "isbn": "978-84-9759-682-2"
+        },
+        {
+            "id": 48,
+            "titulo": "Rebelión en la granja",
+            "autor": "George Orwell",
+            "genero_id": 5,
+            "anio_publicacion": 1945,
+            "reseña": "Otra obra importante de George Orwell que utiliza animales de una granja para representar a figuras políticas y satirizar el régimen totalitario soviético.",
+            "isbn": "978-84-667-5861-3"
+        },
+        {
+            "id": 49,
+            "titulo": "El señor de los anillos: La comunidad del anillo",
+            "autor": "J.R.R. Tolkien",
+            "genero_id": 6,
+            "anio_publicacion": 1954,
+            "reseña": "La primera parte de la trilogía épica de J.R.R. Tolkien que sigue las aventuras de Frodo Bolsón y su misión para destruir el Anillo Único.",
+            "isbn": "978-84-450-7110-5"
+        },
+        {
+            "id": 50,
+            "titulo": "El Hobbit",
+            "autor": "J.R.R. Tolkien",
+            "genero_id": 6,
+            "anio_publicacion": 1937,
+            "reseña": "El famoso relato de J.R.R. Tolkien que sigue al hobbit Bilbo Bolsón en su búsqueda del tesoro custodiado por el dragón Smaug.",
+            "isbn": "978-84-450-7128-0"
+        }
+    ]

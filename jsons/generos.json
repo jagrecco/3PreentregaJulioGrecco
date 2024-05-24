@@ -1,0 +1,13 @@
+[
+    { "id": 1, "nombre": "Ficción", "descripcion": "El género de ficción abarca una amplia variedad de obras literarias que presentan eventos imaginarios o ficticios, incluyendo novelas, cuentos cortos y más." },
+    { "id": 2, "nombre": "Misterio", "descripcion": "El género de misterio se centra en resolver enigmas, crímenes o situaciones desconocidas a través de la investigación y la deducción, manteniendo al lector en suspenso hasta el final." },
+    { "id": 3, "nombre": "Romance", "descripcion": "El género de romance se centra en las relaciones amorosas entre personajes, explorando temas como el amor, la pasión, el deseo y los desafíos que enfrentan las parejas." },
+    { "id": 4, "nombre": "Ciencia Ficción", "descripcion": "El género de ciencia ficción se caracteriza por presentar conceptos imaginarios basados en la ciencia y la tecnología, explorando mundos futuristas, extraterrestres, viajes en el tiempo y más." },
+    { "id": 5, "nombre": "Terror", "descripcion": "El género de terror busca provocar miedo, suspense y emociones intensas en el lector a través de situaciones sobrenaturales, monstruos, asesinos, fenómenos paranormales y más." },
+    { "id": 6, "nombre": "Drama", "descripcion": "El género de drama se centra en situaciones emocionales y conflictos humanos, explorando temas como el amor, la pérdida, el conflicto familiar, el sacrificio y la redención." },
+    { "id": 7, "nombre": "Poesía", "descripcion": "La poesía es un género literario que se caracteriza por su expresión artística y su uso de la métrica, el ritmo y la imaginería para transmitir emociones, ideas y experiencias." },
+    { "id": 8, "nombre": "Biografía", "descripcion": "El género de biografía se centra en la narración de la vida de una persona, explorando sus logros, desafíos, experiencias y contribuciones al mundo." },
+    { "id": 9, "nombre": "Histórico", "descripcion": "El género histórico se basa en eventos, personajes y períodos históricos reales, presentando una recreación ficticia o documentada de épocas pasadas, con énfasis en la precisión histórica y la ambientación." },
+    { "id": 10, "nombre": "Aventura", "descripcion": "El género de aventura se centra en viajes emocionantes, exploración, riesgos y hazañas heroicas, llevando a los personajes y al lector a lugares desconocidos y situaciones peligrosas." }
+]
+

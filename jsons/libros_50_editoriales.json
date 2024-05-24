@@ -1,0 +1,143 @@
+[
+    {
+        "id": 1,
+        "nombre": "Planeta"
+    },
+    {
+        "id": 2,
+        "nombre": "Penguin Random House"
+    },
+    {
+        "id": 3,
+        "nombre": "Vintage"
+    },
+    {
+        "id": 4,
+        "nombre": "Debolsillo"
+    },
+    {
+        "id": 5,
+        "nombre": "Anagrama"
+    },
+    {
+        "id": 6,
+        "nombre": "Alfaguara"
+    },
+    {
+        "id": 7,
+        "nombre": "Edhasa"
+    },
+    {
+        "id": 8,
+        "nombre": "Ediciones B"
+    },
+    {
+        "id": 9,
+        "nombre": "Roca Editorial"
+    },
+    {
+        "id": 10,
+        "nombre": "Siruela"
+    },
+    {
+        "id": 11,
+        "nombre": "Atria Books"
+    },
+    {
+        "id": 12,
+        "nombre": "Ediciones Cátedra"
+    },
+    {
+        "id": 13,
+        "nombre": "Grijalbo"
+    },
+    {
+        "id": 14,
+        "nombre": "Edebé"
+    },
+    {
+        "id": 15,
+        "nombre": "Penguin Clásicos"
+    },
+    {
+        "id": 16,
+        "nombre": "La Esfera de los Libros"
+    },
+    {
+        "id": 17,
+        "nombre": "Folletos"
+    },
+    {
+        "id": 18,
+        "nombre": "Ediciones Martínez Roca"
+    },
+    {
+        "id": 19,
+        "nombre": "HarperCollins"
+    },
+    {
+        "id": 20,
+        "nombre": "Plaza & Janés"
+    },
+    {
+        "id": 21,
+        "nombre": "Ediciones Gigamesh"
+    },
+    {
+        "id": 22,
+        "nombre": "Little, Brown and Company"
+    },
+    {
+        "id": 23,
+        "nombre": "Destino"
+    },
+    {
+        "id": 24,
+        "nombre": "Salamandra"
+    },
+    {
+        "id": 25,
+        "nombre": "Penguin Books"
+    },
+    {
+        "id": 26,
+        "nombre": "Rialp"
+    },
+    {
+        "id": 27,
+        "nombre": "Grand Central Publishing"
+    },
+    {
+        "id": 28,
+        "nombre": "Alianza Editorial"
+    },
+    {
+        "id": 29,
+        "nombre": "Seix Barral"
+    },
+    {
+        "id": 30,
+        "nombre": "Imprenta de John P. Jewett y compañía"
+    },
+    {
+        "id": 31,
+        "nombre": "S. Fischer Verlag"
+    },
+    {
+        "id": 32,
+        "nombre": "Shakespeare and Company"
+    },
+    {
+        "id": 33,
+        "nombre": "Charles Scribner's Sons"
+    },
+    {
+        "id": 34,
+        "nombre": "Robert Brothers"
+    },
+    {
+        "id": 35,
+        "nombre": "Pierre-Jules Hetzel"
+    }
+]
+

@@ -1,0 +1,303 @@
+[
+    {
+      "id": 1,
+      "nombre": "Gabriel García Márquez",
+      "nacionalidad": "Colombiano",
+      "descripcion": "Gabriel García Márquez fue un escritor colombiano, considerado uno de los más grandes autores del siglo XX. Su obra más conocida es 'Cien años de soledad', una obra maestra del realismo mágico."
+    },
+    {
+      "id": 2,
+      "nombre": "J.K. Rowling",
+      "nacionalidad": "Británica",
+      "descripcion": "J.K. Rowling es una escritora británica conocida por crear la serie de libros de Harry Potter, que se convirtió en un fenómeno mundial. Su imaginación y creatividad la han llevado a ser una de las autoras más exitosas de todos los tiempos."
+    },
+    {
+      "id": 3,
+      "nombre": "Haruki Murakami",
+      "nacionalidad": "Japonés",
+      "descripcion": "Haruki Murakami es un escritor japonés conocido por sus novelas surrealistas y misteriosas. Su estilo único ha ganado admiradores en todo el mundo, convirtiéndolo en uno de los autores contemporáneos más influyentes."
+    },
+    {
+      "id": 4,
+      "nombre": "Jane Austen",
+      "nacionalidad": "Británica",
+      "descripcion": "Jane Austen fue una novelista británica del siglo XIX conocida por sus novelas de amor y comedia. Sus obras, como 'Orgullo y prejuicio' y 'Emma', siguen siendo populares hasta el día de hoy."
+    },
+    {
+      "id": 5,
+      "nombre": "Stephen King",
+      "nacionalidad": "Estadounidense",
+      "descripcion": "Stephen King es un escritor estadounidense conocido como el maestro del terror. Sus novelas, que abarcan una amplia gama de géneros, han vendido millones de copias en todo el mundo y han sido adaptadas a películas y series de televisión."
+    },
+    {
+      "id": 6,
+      "nombre": "Agatha Christie",
+      "nacionalidad": "Británica",
+      "descripcion": "Agatha Christie fue una escritora británica conocida como la reina del crimen. Sus ingeniosas historias de misterio y sus personajes memorables la convirtieron en una de las autoras más vendidas de todos los tiempos."
+    },
+    {
+      "id": 7,
+      "nombre": "Isabel Allende",
+      "nacionalidad": "Chilena",
+      "descripcion": "Isabel Allende es una escritora chilena conocida por su estilo narrativo único y su compromiso con la justicia social. Su obra más famosa, 'La casa de los espíritus', es considerada una obra maestra de la literatura latinoamericana."
+    },
+    {
+      "id": 8,
+      "nombre": "Carlos Ruiz Zafón",
+      "nacionalidad": "Español",
+      "descripcion": "Carlos Ruiz Zafón fue un novelista español conocido por su serie de libros 'El cementerio de los libros olvidados'. Su habilidad para crear atmósferas evocadoras y personajes complejos lo convirtió en uno de los autores más queridos de su generación."
+    },
+    {
+      "id": 9,
+      "nombre": "George Orwell",
+      "nacionalidad": "Británica",
+      "descripcion": "George Orwell fue un escritor británico conocido por su crítica social y política. Su novela '1984' es una de las obras más influyentes del siglo XX, explorando temas como el totalitarismo y la vigilancia gubernamental."
+    },
+    {
+      "id": 10,
+      "nombre": "Harper Lee",
+      "nacionalidad": "Estadounidense",
+      "descripcion": "Harper Lee fue una novelista estadounidense conocida por su obra maestra 'Matar a un ruiseñor'. Su estilo de escritura simple pero poderoso abordó temas importantes como la justicia racial y la moralidad."
+    },
+    {
+      "id": 11,
+      "nombre": "Oscar Wilde",
+      "nacionalidad": "Irlandés",
+      "descripcion": "Oscar Wilde fue un escritor irlandés conocido por su ingenio y su estilo extravagante. Sus obras, como 'El retrato de Dorian Gray' y 'El fantasma de Canterville', siguen siendo populares por su agudeza y su crítica social."
+    },
+    {
+      "id": 12,
+      "nombre": "J.R.R. Tolkien",
+      "nacionalidad": "Británica",
+      "descripcion": "J.R.R. Tolkien fue un escritor británico conocido por crear el universo de la Tierra Media. Su obra más famosa, 'El Señor de los Anillos', es considerada una de las mejores sagas de fantasía de todos los tiempos."
+    },
+    {
+      "id": 13,
+      "nombre": "Paula Hawkins",
+      "nacionalidad": "Británica",
+      "descripcion": "Paula Hawkins es una escritora británica conocida por su novela de suspenso 'La chica del tren'. Su habilidad para crear tramas complejas y personajes intrigantes la ha convertido en una autora de renombre internacional."
+    },
+    {
+      "id": 14,
+      "nombre": "Fyodor Dostoevsky",
+      "nacionalidad": "Ruso",
+      "descripcion": "Fyodor Dostoevsky fue un escritor ruso conocido por sus novelas psicológicas y filosóficas. Sus obras, como 'Crimen y castigo' y 'Los hermanos Karamazov', exploran temas profundos como el pecado, la redención y la moralidad."
+    },
+    {
+      "id": 15,
+      "nombre": "George R.R. Martin",
+      "nacionalidad": "Estadounidense",
+      "descripcion": "George R.R. Martin es un escritor estadounidense conocido por su serie de novelas 'Canción de hielo y fuego', que inspiró la exitosa serie de televisión 'Juego de Tronos'. Su habilidad para crear mundos complejos y personajes memorables lo ha convertido en uno de los autores más influyentes de la fantasía moderna."
+    },
+    {
+      "id": 16,
+      "nombre": "Markus Zusak",
+      "nacionalidad": "Australiano",
+      "descripcion": "Markus Zusak es un escritor australiano conocido por su novela 'La ladrona de libros'. Su estilo poético y conmovedor ha cautivado a lectores de todas las edades en todo el mundo."
+    },
+    {
+      "id": 17,
+      "nombre": "Ken Follett",
+      "nacionalidad": "Británica",
+      "descripcion": "Ken Follett es un escritor británico conocido por sus novelas históricas épicas. Sus obras, como 'Los pilares de la Tierra' y 'El invierno del mundo', han vendido millones de copias en todo el mundo y han sido adaptadas a series de televisión."
+    },
+    {
+      "id": 18,
+      "nombre": "Dan Brown",
+      "nacionalidad": "Estadounidense",
+      "descripcion": "Dan Brown es un escritor estadounidense conocido por sus novelas de misterio y conspiración. Su obra más famosa, 'El código Da Vinci', es un bestseller internacional que ha generado controversia y debate en todo el mundo."
+    },
+    {
+      "id": 19,
+      "nombre": "J.D. Salinger",
+      "nacionalidad": "Estadounidense",
+      "descripcion": "J.D. Salinger fue un escritor estadounidense conocido por su novela 'El guardián entre el centeno'. Aunque fue reacio a la fama, su obra sigue siendo influyente y admirada por generaciones de lectores."
+    },
+    {
+      "id": 20,
+      "nombre": "Tom Wolfe",
+      "nacionalidad": "Estadounidense",
+      "descripcion": "Tom Wolfe fue un escritor estadounidense conocido por su estilo periodístico y su crónica de la cultura estadounidense. Su obra más famosa, 'La hoguera de las vanidades', es considerada una sátira mordaz de la vida en la ciudad de Nueva York."
+    },
+    {
+      "id": 21,
+      "nombre": "Stieg Larsson",
+      "nacionalidad": "Sueco",
+      "descripcion": "Stieg Larsson fue un escritor sueco conocido por su serie de novelas 'Millennium'. Aunque murió antes de ver su éxito, su obra ha vendido millones de copias en todo el mundo y ha sido adaptada a películas y series de televisión."
+    },
+    {
+      "id": 22,
+      "nombre": "Muriel Barbery",
+      "nacionalidad": "Francesa",
+      "descripcion": "Muriel Barbery es una escritora francesa conocida por su novela 'La elegancia del erizo'. Su estilo introspectivo y su exploración de temas filosóficos la han convertido en una autora aclamada por la crítica."
+    },
+    {
+      "id": 23,
+      "nombre": "Yuval Noah Harari",
+      "nacionalidad": "Israelí",
+      "descripcion": "Yuval Noah Harari es un historiador israelí conocido por su obra 'Sapiens: De animales a dioses'. Su capacidad para combinar la historia, la biología y la filosofía lo ha convertido en uno de los autores más influyentes de nuestro tiempo."
+    },
+    {
+      "id": 24,
+      "nombre": "Eckhart Tolle",
+      "nacionalidad": "Alemán",
+      "descripcion": "Eckhart Tolle es un escritor alemán conocido por su obra 'El poder del ahora'. Su enfoque en la espiritualidad y la conciencia lo ha convertido en uno de los líderes espirituales más influyentes del siglo XXI."
+    },
+    {
+      "id": 25,
+      "nombre": "C.S. Lewis",
+      "nacionalidad": "Británica",
+      "descripcion": "C.S. Lewis fue un escritor británico conocido por sus novelas de fantasía y sus obras de apologética cristiana. Su serie de libros 'Las crónicas de Narnia' ha sido amada por generaciones de lectores de todas las edades."
+    },
+    {
+      "id": 26,
+      "nombre": "Herman Melville",
+      "nacionalidad": "Estadounidense",
+      "descripcion": "Herman Melville fue un escritor estadounidense conocido por su novela 'Moby Dick'. Aunque no fue reconocido en vida, su obra maestra sobre la obsesión humana sigue siendo una de las novelas más importantes de la literatura estadounidense."
+    },
+    {
+      "id": 27,
+      "nombre": "Leo Tolstoy",
+      "nacionalidad": "Ruso",
+      "descripcion": "Leo Tolstoy fue un escritor ruso conocido por sus novelas épicas como 'Guerra y paz' y 'Anna Karenina'. Su profundo análisis de la condición humana lo ha convertido en uno de los autores más influyentes de la literatura mundial."
+    },
+    {
+      "id": 28,
+      "nombre": "Ernest Hemingway",
+      "nacionalidad": "Estadounidense",
+      "descripcion": "Ernest Hemingway fue un escritor estadounidense conocido por su estilo conciso y su prosa directa. Sus novelas, como 'El viejo y el mar' y 'Adiós a las armas', capturan la esencia de la experiencia humana con una claridad sorprendente."
+    },
+    {
+      "id": 29,
+      "nombre": "Virginia Woolf",
+      "nacionalidad": "Británica",
+      "descripcion": "Virginia Woolf fue una escritora británica conocida por su estilo experimental y su exploración de la conciencia humana. Su obra, que incluye novelas como 'La señora Dalloway' y 'Al faro', es considerada una de las más importantes de la literatura modernista."
+    },
+    {
+      "id": 30,
+      "nombre": "Albert Camus",
+      "nacionalidad": "Francés",
+      "descripcion": "Albert Camus fue un escritor francés conocido por su filosofía del absurdismo. Su novela 'El extranjero' y su ensayo 'El mito de Sísifo' exploran temas como el sentido de la vida y la rebelión contra el absurdo del mundo."
+    },
+    {
+      "id": 31,
+      "nombre": "Toni Morrison",
+      "nacionalidad": "Estadounidense",
+      "descripcion": "Toni Morrison fue una escritora estadounidense conocida por su exploración de la experiencia afroamericana. Su novela 'Beloved', que ganó el Premio Pulitzer, es considerada una de las mejores obras de la literatura contemporánea."
+    },
+    {
+      "id": 32,
+      "nombre": "F. Scott Fitzgerald",
+      "nacionalidad": "Estadounidense",
+      "descripcion": "F. Scott Fitzgerald fue un escritor estadounidense conocido por su novela 'El gran Gatsby'. Su obra, que captura la extravagancia y el glamour de la era del jazz, ha sido aclamada como un clásico de la literatura estadounidense."
+    },
+    {
+      "id": 33,
+      "nombre": "Emily Brontë",
+      "nacionalidad": "Británica",
+      "descripcion": "Emily Brontë fue una escritora británica conocida por su única novela 'Cumbres borrascosas'. Su estilo gótico y su exploración de la pasión y el odio la han convertido en una de las autoras más influyentes del siglo XIX."
+    },
+    {
+      "id": 34,
+      "nombre": "Dante Alighieri",
+      "nacionalidad": "Italiano",
+      "descripcion": "Dante Alighieri fue un poeta italiano conocido por su obra maestra 'La Divina Comedia'. Su visión del viaje del alma a través del Infierno, el Purgatorio y el Paraíso sigue siendo una de las obras más importantes de la literatura mundial."
+    },
+    {
+      "id": 35,
+      "nombre": "Homer",
+      "nacionalidad": "Griego",
+      "descripcion": "Homer fue un poeta griego antiguo conocido por sus epopeyas 'La Ilíada' y 'La Odisea'. Sus obras épicas han influido en la literatura occidental durante siglos y siguen siendo leídas y estudiadas en todo el mundo."
+    },
+    {
+      "id": 36,
+      "nombre": "Margaret Atwood",
+      "nacionalidad": "Canadiense",
+      "descripcion": "Margaret Atwood es una escritora canadiense conocida por sus novelas distópicas y su compromiso con los derechos de las mujeres. Su obra más famosa, 'El cuento de la criada', ha sido adaptada a una exitosa serie de televisión y se ha convertido en un símbolo del feminismo moderno."
+    },
+    {
+      "id": 37,
+      "nombre": "John Steinbeck",
+      "nacionalidad": "Estadounidense",
+      "descripcion": "John Steinbeck fue un escritor estadounidense conocido por sus novelas sobre la lucha del hombre contra la naturaleza y la sociedad. Su obra maestra, 'Las uvas de la ira', ganó el Premio Pulitzer y sigue siendo una poderosa crítica social."
+    },
+    {
+      "id": 38,
+      "nombre": "Kazuo Ishiguro",
+      "nacionalidad": "Británica",
+      "descripcion": "Kazuo Ishiguro es un escritor británico conocido por sus novelas introspectivas y emotivas. Su obra más famosa, 'Los restos del día', ganó el Premio Booker y ha sido aclamada como una obra maestra de la literatura contemporánea."
+    },
+    {
+      "id": 39,
+      "nombre": "Aldous Huxley",
+      "nacionalidad": "Británica",
+      "descripcion": "Aldous Huxley fue un escritor británico conocido por su novela distópica 'Un mundo feliz'. Su exploración de temas como la libertad individual y el control gubernamental lo ha convertido en uno de los escritores más influyentes del siglo XX."
+    },
+    {
+      "id": 40,
+      "nombre": "Mary Shelley",
+      "nacionalidad": "Británica",
+      "descripcion": "Mary Shelley fue una escritora británica conocida por su novela de terror 'Frankenstein'. Su obra, que explora temas como la ambición desmedida y la responsabilidad científica, ha inspirado innumerables adaptaciones en cine, televisión y teatro."
+    },
+    {
+      "id": 41,
+      "nombre": "Jorge Luis Borges",
+      "nacionalidad": "Argentino",
+      "descripcion": "Jorge Luis Borges fue un escritor argentino conocido por sus cuentos cortos y su exploración de temas metafísicos. Su obra, que desafía las convenciones narrativas y juega con la noción de la realidad, lo ha convertido en uno de los autores más importantes del siglo XX."
+    },
+    {
+      "id": 42,
+      "nombre": "Roald Dahl",
+      "nacionalidad": "Británica",
+      "descripcion": "Roald Dahl fue un escritor británico conocido por sus libros infantiles irreverentes y oscuros. Su imaginación desbordante y su humor único han hecho que sus historias, como 'Charlie y la fábrica de chocolate' y 'Matilda', sean queridas por niños y adultos por igual."
+    },
+    {
+      "id": 43,
+      "nombre": "Marcel Proust",
+      "nacionalidad": "Francés",
+      "descripcion": "Marcel Proust fue un escritor francés conocido por su monumental obra 'En busca del tiempo perdido'. Su exploración de la memoria, el tiempo y el amor lo ha convertido en uno de los autores más influyentes de la literatura moderna."
+    },
+    {
+      "id": 44,
+      "nombre": "Jack Kerouac",
+      "nacionalidad": "Estadounidense",
+      "descripcion": "Jack Kerouac fue un escritor estadounidense conocido por ser uno de los líderes del movimiento Beat. Su novela 'En el camino' es una crónica de sus viajes por Estados Unidos y ha sido aclamada como un clásico de la literatura moderna."
+    },
+    {
+      "id": 45,
+      "nombre": "Khaled Hosseini",
+      "nacionalidad": "Afgano",
+      "descripcion": "Khaled Hosseini es un escritor afgano-estadounidense conocido por sus novelas sobre la vida en Afganistán. Su obra más famosa, 'Cometas en el cielo', ha vendido millones de copias en todo el mundo y ha sido adaptada a películas y obras de teatro."
+    },
+    {
+      "id": 46,
+      "nombre": "Milan Kundera",
+      "nacionalidad": "Checa",
+      "descripcion": "Milan Kundera es un escritor checo-francés conocido por sus novelas filosóficas y políticas. Su obra más famosa, 'La insoportable levedad del ser', explora temas como la libertad y la identidad en el contexto de la Europa comunista."
+    },
+    {
+      "id": 47,
+      "nombre": "Philip K. Dick",
+      "nacionalidad": "Estadounidense",
+      "descripcion": "Philip K. Dick fue un escritor estadounidense conocido por sus novelas de ciencia ficción y su exploración de la realidad y la identidad. Su obra, que incluye '¿Sueñan los androides con ovejas eléctricas?' y 'El hombre en el castillo', ha influido en la cultura popular y ha sido adaptada a películas y series de televisión."
+    },
+    {
+      "id": 48,
+      "nombre": "Vladimir Nabokov",
+      "nacionalidad": "Ruso",
+      "descripcion": "Vladimir Nabokov fue un escritor ruso-estadounidense conocido por su novela 'Lolita'. Su prosa elegante y su exploración de temas tabú lo han convertido en uno de los autores más controvertidos e influyentes del siglo XX."
+    },
+    {
+      "id": 49,
+      "nombre": "Philip Roth",
+      "nacionalidad": "Estadounidense",
+      "descripcion": "Philip Roth fue un escritor estadounidense conocido por sus novelas sobre la identidad judía y la experiencia estadounidense. Su obra, que incluye 'Pastoral americana' y 'La conjura contra América', ha sido aclamada por la crítica y ha ganado numerosos premios literarios."
+    },
+    {
+      "id": 50,
+      "nombre": "Ian McEwan",
+      "nacionalidad": "Británica",
+      "descripcion": "Ian McEwan es un escritor británico conocido por sus novelas introspectivas y sus exploraciones de la moralidad y la psicología humana. Su obra, que incluye 'Expiación' y 'Amsterdam', ha sido aclamada como una de las mejores de la literatura contemporánea."
+    }
+]
+

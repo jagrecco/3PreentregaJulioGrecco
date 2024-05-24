@@ -1,59 +1,83 @@
-## Proyecto Coderhouse para gestión de biblioteca
+## Proyecto Coderhouse para gestión de una biblioteca
 ### Comisión: 54135
 #### Alumno: Julio Grecco
+_________________________________________
+##### Usuarios de prueba:
+Puede usarse para probar los siguientes usuarios:
+ * usr: coder
+ pw: biblioteca
+![Vista de usuario](usuario.png)
+ * usr: coder2 (usuario staff)
+ pw: biblioteca
+ ![Vista de usuario](staff.png)
+ * usr: coder3 (usuario staff admministrador)
+ pw biblioteca
+ ![Vista de usuario](administrador.png)
 
-Para probar la funcionalidad usar la opción de **Ir a Libros** según la captura:
-![Menú Principal](menu1.png)
-La funcionalidad disponible para probar es la que se encuentra en el siguiente menú:
-![Gestión de Libros](menu2.png)
-
-La vista de usuarios simplemente muestra los usuarios cargados en la base de datos actualmente.
 
 #### Acerca del proyecto
-Una gestión de una biblioteca incluyendo base de datos de libros, de usuarios y el registro y gestión de préstamos.
+El proyecto consiste en un aplicación para gestión de una biblioteca incluyendo base de datos de libros, de usuarios y el registro de préstamos de libros.
+
 #### Aplicaciones
-* Usuarios: Gestión de usuarios, tanto bibliotecarios como lectores.
-* Libros: Base de datos de libros, autores y prestamos con tablas relacionadas.
-* Préstamos: Gestión de préstamos de libros relacionando las bases de datos de usuarios y libros
+* Usuarios: Gestión de usuarios, tanto bibliotecarios como lectores, tomando como base los usuarios del sistema. Hay usuarios, hay usuarios parte del staff y también usuarios parte del staff superusuario. La aplicación muestra opciones diferentes en cada caso.
+
+* Libros: Base de datos de libros, autores y géneros literarios con tablas relacionadas usando una FK.
+
+* Préstamos: Gestión de préstamos de libros relacionando las bases de datos de usuarios y libros.
+
 ##### Modelos
 Los modelos según aplicación son los siguientes:
 
 * App usuarios:
-    * Persona
-        nombre
-         mail
+    
     * Rol
         nombre
+        descripcion
+
     * Usuario
-        name
-        pw
+        usuario
+        mail
         rol
+        avatar
 
 * App libros:
     * Autor
         nombre
+        nacionalidad
         descripcion
-    * Categoria
+
+    * Genero
         nombre
         descripcion
+
+    * Editorial
+        nombre
+        pais
+
     * Libro
-        nombre
+        titulo
         autor
-        categoria
+        editorial
+        genero
+        isbn
+        anio
+        descripcion
+        idioma
+        paginas
         stock
         existencia
+
 * App prestamos
     * Prestamo
-        fechaalta
+        fechaAlta
         usuario
         libro
 
 #### Mejoras futuras
 
-Desarrollar el ingreso de libros nuevos usando las tablas relacionadas
-Desarrollar el sistema de gestión e ingreso de préstamos en la base de datos (CRUD)
-Desarrollar la gestión de usuarios (CRUD)
+Desarrollar el módulo de revistas siguiendo el modelo usado para el de libros.
+Desarrollar el sistema de gestión usuarios permitiendo la baja de usuarios pero monitoreando que el usuario no tenga un préstamo vigente (CRUD)
+Desarrollar la gestión de prestamos evitando borrarlos y pasando el generando un estado que indique si está completo o en curso y llevando un contról de libros prestados por usuario. Esto permitiría que el usuario lector al ingresar pueda ver qué libros se llevó  (CRUD)
 
 #### Problemas conocidos
-En las vistas que son resultado de una búsqueda falta un botón para volver a listar toda la base de datos
-Al editar o eliminar un registro en libros, autores o categorias no vuelve a la pantalla inmediatamente anterior
+Problemas varios en el frontend ej. las tarjetas de libros son demasiado grandes y debiera mostrar información completa a requerimiento y no todo el tiempo. El mismo principio para las vistas de autores y géneros literarios. Además el logín/logout se podría resolver con un modal y no con un redireccionamiento a otra página.

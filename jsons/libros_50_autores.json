@@ -1,0 +1,189 @@
+[
+    {
+        "id": 1,
+        "nombre": "Gabriel García Márquez",
+        "nacionalidad": "Colombiano",
+        "libros": [1, 2, 21]
+    },
+    {
+        "id": 2,
+        "nombre": "Miguel de Cervantes Saavedra",
+        "nacionalidad": "Español",
+        "libros": [3]
+    },
+    {
+        "id": 3,
+        "nombre": "William Shakespeare",
+        "nacionalidad": "Inglés",
+        "libros": [4, 5]
+    },
+    {
+        "id": 4,
+        "nombre": "George Orwell",
+        "nacionalidad": "Británico",
+        "libros": [6, 7]
+    },
+    {
+        "id": 5,
+        "nombre": "J.R.R. Tolkien",
+        "nacionalidad": "Británico",
+        "libros": [8, 9]
+    },
+    {
+        "id": 6,
+        "nombre": "J.K. Rowling",
+        "nacionalidad": "Británica",
+        "libros": [10, 11]
+    },
+    {
+        "id": 7,
+        "nombre": "Dan Brown",
+        "nacionalidad": "Estadounidense",
+        "libros": [12, 13]
+    },
+    {
+        "id": 8,
+        "nombre": "Jane Austen",
+        "nacionalidad": "Británica",
+        "libros": [14, 15]
+    },
+    {
+        "id": 9,
+        "nombre": "Herman Melville",
+        "nacionalidad": "Estadounidense",
+        "libros": [16]
+    },
+    {
+        "id": 10,
+        "nombre": "Mark Twain",
+        "nacionalidad": "Estadounidense",
+        "libros": [17, 18]
+    },
+    {
+        "id": 11,
+        "nombre": "León Tolstói",
+        "nacionalidad": "Ruso",
+        "libros": [19, 20]
+    },
+    {
+        "id": 12,
+        "nombre": "Carlos Ruiz Zafón",
+        "nacionalidad": "Español",
+        "libros": [22, 23]
+    },
+    {
+        "id": 13,
+        "nombre": "Ken Follett",
+        "nacionalidad": "Británico",
+        "libros": [24, 25]
+    },
+    {
+        "id": 14,
+        "nombre": "John Katzenbach",
+        "nacionalidad": "Estadounidense",
+        "libros": [26, 27]
+    },
+    {
+        "id": 15,
+        "nombre": "Paulo Coelho",
+        "nacionalidad": "Brasileño",
+        "libros": [28, 29]
+    },
+    {
+        "id": 16,
+        "nombre": "Patrick Rothfuss",
+        "nacionalidad": "Estadounidense",
+        "libros": [30, 31]
+    },
+    {
+        "id": 17,
+        "nombre": "George R.R. Martin",
+        "nacionalidad": "Estadounidense",
+        "libros": [32, 33]
+    },
+    {
+        "id": 18,
+        "nombre": "Stephenie Meyer",
+        "nacionalidad": "Estadounidense",
+        "libros": [34, 35]
+    },
+    {
+        "id": 19,
+        "nombre": "C.S. Lewis",
+        "nacionalidad": "Británico",
+        "libros": [36, 37]
+    },
+    {
+        "id": 20,
+        "nombre": "Ernest Hemingway",
+        "nacionalidad": "Estadounidense",
+        "libros": [38, 39]
+    },
+    {
+        "id": 21,
+        "nombre": "Oscar Wilde",
+        "nacionalidad": "Irlandés",
+        "libros": [40]
+    },
+    {
+        "id": 22,
+        "nombre": "Bram Stoker",
+        "nacionalidad": "Irlandés",
+        "libros": [41]
+    },
+    {
+        "id": 23,
+        "nombre": "Harper Lee",
+        "nacionalidad": "Estadounidense",
+        "libros": [42]
+    },
+    {
+        "id": 24,
+        "nombre": "Fiódor Dostoyevski",
+        "nacionalidad": "Ruso",
+        "libros": [43]
+    },
+    {
+        "id": 25,
+        "nombre": "Victor Hugo",
+        "nacionalidad": "Francés",
+        "libros": [44]
+    },
+    {
+        "id": 26,
+        "nombre": "Harriet Beecher Stowe",
+        "nacionalidad": "Estadounidense",
+        "libros": [45]
+    },
+    {
+        "id": 27,
+        "nombre": "Thomas Mann",
+        "nacionalidad": "Alemán",
+        "libros": [46]
+    },
+    {
+        "id": 28,
+        "nombre": "James Joyce",
+        "nacionalidad": "Irlandés",
+        "libros": [47]
+    },
+    {
+        "id": 29,
+        "nombre": "F. Scott Fitzgerald",
+        "nacionalidad": "Estadounidense",
+        "libros": [48]
+    },
+    {
+        "id": 30,
+        "nombre": "Louisa May Alcott",
+        "nacionalidad": "Estadounidense",
+        "libros": [49]
+    },
+    {
+        "id": 31,
+        "nombre": "Alejandro Dumas",
+        "nacionalidad": "Francés",
+        "libros": [50]
+    }
+]
+

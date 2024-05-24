@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "nombre": "Vintage Books",
+      "pais": "Estados Unidos"
+    },
+    {
+      "id": 2,
+      "nombre": "Bloomsbury Publishing",
+      "pais": "Reino Unido"
+    },
+    {
+      "id": 3,
+      "nombre": "Alfred A. Knopf",
+      "pais": "Estados Unidos"
+    },
+    {
+      "id": 4,
+      "nombre": "Penguin Random House",
+      "pais": "Estados Unidos"
+    },
+    {
+      "id": 5,
+      "nombre": "HarperCollins",
+      "pais": "Estados Unidos"
+    },
+    {
+      "id": 6,
+      "nombre": "Penguin Books",
+      "pais": "Reino Unido"
+    },
+    {
+      "id": 7,
+      "nombre": "Random House",
+      "pais": "Estados Unidos"
+    },
+    {
+      "id": 8,
+      "nombre": "Simon & Schuster",
+      "pais": "Estados Unidos"
+    }
+  ]

@@ -1,0 +1,503 @@
+[
+    {
+        "id": 1,
+        "titulo": "Cien años de soledad",
+        "autor_id": 1,
+        "editorial_id": 1,
+        "genero": "Realismo mágico",
+        "anio_publicacion": 1967,
+        "reseña": "La obra maestra del escritor colombiano Gabriel García Márquez que narra la historia de la familia Buendía a lo largo de varias generaciones en el ficticio pueblo de Macondo.",
+        "isbn": "978-84-376-0494-7"
+    },
+    {
+        "id": 2,
+        "titulo": "El amor en los tiempos del cólera",
+        "autor_id": 1,
+        "editorial_id": 2,
+        "genero": "Realismo mágico",
+        "anio_publicacion": 1985,
+        "reseña": "Otra gran obra de Gabriel García Márquez que cuenta la historia de amor entre Florentino Ariza y Fermina Daza a lo largo de más de cincuenta años en un contexto de epidemia de cólera.",
+        "isbn": "978-84-9838-399-3"
+    },
+    {
+        "id": 3,
+        "titulo": "Don Quijote de la Mancha",
+        "autor_id": 2,
+        "editorial_id": 3,
+        "genero": "Novela satírica",
+        "anio_publicacion": 1605,
+        "reseña": "La obra cumbre de Miguel de Cervantes Saavedra que narra las aventuras del hidalgo Alonso Quijano, quien enloquece leyendo libros de caballería y decide salir en busca de aventuras como Don Quijote.",
+        "isbn": "978-84-249-3565-6"
+    },
+    {
+        "id": 4,
+        "titulo": "Romeo y Julieta",
+        "autor_id": 3,
+        "editorial_id": 4,
+        "genero": "Tragedia",
+        "anio_publicacion": 1597,
+        "reseña": "Una de las obras más conocidas de William Shakespeare que cuenta la historia de amor imposible entre Romeo Montesco y Julieta Capuleto en la ciudad de Verona.",
+        "isbn": "978-84-9814-438-9"
+    },
+    {
+        "id": 5,
+        "titulo": "Hamlet",
+        "autor_id": 3,
+        "editorial_id": 5,
+        "genero": "Tragedia",
+        "anio_publicacion": 1600,
+        "reseña": "Otra obra destacada de William Shakespeare que gira en torno a Hamlet, príncipe de Dinamarca, y su venganza por la muerte de su padre.",
+        "isbn": "978-84-206-3611-5"
+    },
+    {
+        "id": 6,
+        "titulo": "1984",
+        "autor_id": 4,
+        "editorial_id": 6,
+        "genero": "Ciencia ficción",
+        "anio_publicacion": 1949,
+        "reseña": "La famosa novela distópica de George Orwell que describe un futuro totalitario en el que el gobierno controla todos los aspectos de la vida de los ciudadanos.",
+        "isbn": "978-84-9759-682-2"
+    },
+    {
+        "id": 7,
+        "titulo": "Rebelión en la granja",
+        "autor_id": 4,
+        "editorial_id": 7,
+        "genero": "Sátira política",
+        "anio_publicacion": 1945,
+        "reseña": "Otra obra importante de George Orwell que utiliza animales de una granja para representar a figuras políticas y satirizar el régimen totalitario soviético.",
+        "isbn": "978-84-667-5861-3"
+    },
+    {
+        "id": 8,
+        "titulo": "El señor de los anillos: La comunidad del anillo",
+        "autor_id": 5,
+        "editorial_id": 8,
+        "genero": "Fantasía",
+        "anio_publicacion": 1954,
+        "reseña": "La primera parte de la trilogía épica de J.R.R. Tolkien que sigue las aventuras de Frodo Bolsón y su misión para destruir el Anillo Único.",
+        "isbn": "978-84-450-7110-5"
+    },
+    {
+        "id": 9,
+        "titulo": "El Hobbit",
+        "autor_id": 5,
+        "editorial_id": 9,
+        "genero": "Fantasía",
+        "anio_publicacion": 1937,
+        "reseña": "El famoso relato de J.R.R. Tolkien que sigue al hobbit Bilbo Bolsón en su búsqueda del tesoro custodiado por el dragón Smaug.",
+        "isbn": "978-84-450-7651-3"
+    },
+    {
+        "id": 10,
+        "titulo": "Harry Potter y la piedra filosofal",
+        "autor_id": 6,
+        "editorial_id": 10,
+        "genero": "Fantasía",
+        "anio_publicacion": 1997,
+        "reseña": "El primer libro de la saga de J.K. Rowling que sigue las aventuras del joven mago Harry Potter mientras asiste a Hogwarts y lucha contra el malvado mago Voldemort.",
+        "isbn": "978-84-9838-133-3"
+    },
+    {
+        "id": 11,
+        "titulo": "Harry Potter y la cámara secreta",
+        "autor_id": 6,
+        "editorial_id": 10,
+        "genero": "Fantasía",
+        "anio_publicacion": 1998,
+        "reseña": "La segunda entrega de la serie Harry Potter en la que Harry y sus amigos investigan una serie de ataques misteriosos en Hogwarts.",
+        "isbn": "978-84-9838-134-0"
+    },
+    {
+        "id": 12,
+        "titulo": "El código Da Vinci",
+        "autor_id": 7,
+        "editorial_id": 11,
+        "genero": "Thriller",
+        "anio_publicacion": 2003,
+        "reseña": "Un emocionante thriller de Dan Brown que sigue al simbologista Robert Langdon en una búsqueda frenética para resolver un misterioso asesinato y desentrañar un antiguo secreto.",
+        "isbn": "978-84-8306-612-1"
+    },
+    {
+        "id": 13,
+        "titulo": "Ángeles y demonios",
+        "autor_id": 7,
+        "editorial_id": 11,
+        "genero": "Thriller",
+        "anio_publicacion": 2000,
+        "reseña": "Otra emocionante novela de Dan Brown que sigue a Robert Langdon en una carrera contra el tiempo para detener un complot mortal en el Vaticano.",
+        "isbn": "978-84-9793-625-4"
+    },
+    {
+        "id": 14,
+        "titulo": "Orgullo y prejuicio",
+        "autor_id": 8,
+        "editorial_id": 12,
+        "genero": "Novela romántica",
+        "anio_publicacion": 1813,
+        "reseña": "La célebre novela de Jane Austen que sigue las tribulaciones de Elizabeth Bennet mientras navega por el complejo mundo de las relaciones sociales y el amor.",
+        "isbn": "978-84-376-0544-9"
+    },
+    {
+        "id": 15,
+        "titulo": "Sentido y sensibilidad",
+        "autor_id": 8,
+        "editorial_id": 12,
+        "genero": "Novela romántica",
+        "anio_publicacion": 1811,
+        "reseña": "Otra obra clásica de Jane Austen que narra las aventuras y desventuras de las hermanas Dashwood en busca de amor y felicidad en la Inglaterra del siglo XIX.",
+        "isbn": "978-84-9062-122-9"
+    },
+    {
+        "id": 16,
+        "titulo": "Moby Dick",
+        "autor_id": 9,
+        "editorial_id": 13,
+        "genero": "Aventura",
+        "anio_publicacion": 1851,
+        "reseña": "La épica novela de Herman Melville que sigue al capitán Ahab en su obsesiva búsqueda de venganza contra la ballena blanca Moby Dick.",
+        "isbn": "978-84-376-0017-8"
+    },
+    {
+        "id": 17,
+        "titulo": "Las aventuras de Tom Sawyer",
+        "autor_id": 10,
+        "editorial_id": 14,
+        "genero": "Novela juvenil",
+        "anio_publicacion": 1876,
+        "reseña": "La clásica novela de Mark Twain que sigue las travesuras del joven Tom Sawyer en el pueblo ficticio de San Petersburgo, inspirado en Hannibal, Misuri.",
+        "isbn": "978-84-670-4687-5"
+    },
+    {
+        "id": 18,
+        "titulo": "Las aventuras de Huckleberry Finn",
+        "autor_id": 10,
+        "editorial_id": 14,
+        "genero": "Novela juvenil",
+        "anio_publicacion": 1885,
+        "reseña": "Otra obra de Mark Twain que continúa las aventuras de Tom Sawyer y su amigo Huckleberry Finn mientras navegan por el río Misisipi.",
+        "isbn": "978-84-670-2634-1"
+    },
+    {
+        "id": 19,
+        "titulo": "Anna Karenina",
+        "autor_id": 11,
+        "editorial_id": 15,
+        "genero": "Novela realista",
+        "anio_publicacion": 1877,
+        "reseña": "La obra maestra de León Tolstói que explora los dilemas morales y las pasiones humanas a través de la historia de Anna Karenina y su trágico amor con el conde Vronsky.",
+        "isbn": "978-84-8440-201-0"
+    },
+    {
+        "id": 20,
+        "titulo": "Guerra y paz",
+        "autor_id": 11,
+        "editorial_id": 15,
+        "genero": "Novela histórica",
+        "anio_publicacion": 1869,
+        "reseña": "Otra gran obra de León Tolstói que narra la historia de Rusia durante las Guerras Napoleónicas y sigue las vidas de varias familias aristocráticas.",
+        "isbn": "978-84-9104-032-5"
+    },
+    {
+        "id": 21,
+        "titulo": "Crónica de una muerte anunciada",
+        "autor_id": 1,
+        "editorial_id": 1,
+        "genero": "Realismo mágico",
+        "anio_publicacion": 1981,
+        "reseña": "Una novela corta de Gabriel García Márquez que relata el asesinato de Santiago Nasar a manos de los hermanos Vicario en un pequeño pueblo costero de Colombia.",
+        "isbn": "978-84-376-0266-0"
+    },
+    {
+        "id": 22,
+        "titulo": "La sombra del viento",
+        "autor_id": 12,
+        "editorial_id": 16,
+        "genero": "Novela gótica",
+        "anio_publicacion": 2001,
+        "reseña": "Una obra de Carlos Ruiz Zafón que sigue al joven Daniel Sempere mientras descubre un misterioso libro en el Cementerio de los Libros Olvidados y se ve envuelto en un laberinto de secretos y misterios.",
+        "isbn": "978-84-9759-088-2"
+    },
+    {
+        "id": 23,
+        "titulo": "El juego del ángel",
+        "autor_id": 12,
+        "editorial_id": 16,
+        "genero": "Novela gótica",
+        "anio_publicacion": 2008,
+        "reseña": "Otra obra de Carlos Ruiz Zafón que se desarrolla en el mismo universo literario que 'La sombra del viento' y sigue al escritor David Martín en su búsqueda de la verdad en la Barcelona de los años 20.",
+        "isbn": "978-84-08-07316-6"
+    },
+    {
+        "id": 24,
+        "titulo": "Los pilares de la Tierra",
+        "autor_id": 13,
+        "editorial_id": 17,
+        "genero": "Novela histórica",
+        "anio_publicacion": 1989,
+        "reseña": "Una obra de Ken Follett que narra la construcción de una catedral en la Inglaterra del siglo XII y sigue las vidas de varias familias a lo largo de décadas de lucha y sacrificio.",
+        "isbn": "978-84-08-07316-6"
+    },
+    {
+        "id": 25,
+        "titulo": "Un mundo sin fin",
+        "autor_id": 13,
+        "editorial_id": 17,
+        "genero": "Novela histórica",
+        "anio_publicacion": 2007,
+        "reseña": "La secuela de 'Los pilares de la Tierra' de Ken Follett que sigue las vidas de los descendientes de los personajes originales dos siglos después, en el período medieval.",
+        "isbn": "978-84-08-07316-6"
+    },
+    {
+        "id": 26,
+        "titulo": "El psicoanalista",
+        "autor_id": 14,
+        "editorial_id": 18,
+        "genero": "Thriller psicológico",
+        "anio_publicacion": 2002,
+        "reseña": "Un emocionante thriller de John Katzenbach que sigue al psicoanalista Frederick Starks mientras se enfrenta a un paciente anónimo que amenaza con destruir su vida.",
+        "isbn": "978-84-322-9970-3"
+    },
+    {
+        "id": 27,
+        "titulo": "La sombra",
+        "autor_id": 14,
+        "editorial_id": 18,
+        "genero": "Thriller psicológico",
+        "anio_publicacion": 1997,
+        "reseña": "Otra obra de John Katzenbach que sigue a un periodista en su búsqueda de un asesino en serie que imita a los protagonistas de cuentos infantiles.",
+        "isbn": "978-84-322-1200-9"
+    },
+    {
+        "id": 28,
+        "titulo": "El alquimista",
+        "autor_id": 15,
+        "editorial_id": 19,
+        "genero": "Novela de aventuras",
+        "anio_publicacion": 1988,
+        "reseña": "La famosa novela de Paulo Coelho que sigue al joven pastor Santiago en su viaje por el desierto en busca de un tesoro oculto.",
+        "isbn": "978-84-08-07316-6"
+    },
+    {
+        "id": 29,
+        "titulo": "Veronika decide morir",
+        "autor_id": 15,
+        "editorial_id": 19,
+        "genero": "Novela contemporánea",
+        "anio_publicacion": 1998,
+        "reseña": "Una obra de Paulo Coelho que sigue a Veronika, una joven que intenta suicidarse pero termina en un hospital psiquiátrico donde descubre un nuevo sentido para su vida.",
+        "isbn": "978-84-08-07316-6"
+    },
+    {
+        "id": 30,
+        "titulo": "El nombre del viento",
+        "autor_id": 16,
+        "editorial_id": 20,
+        "genero": "Fantasía épica",
+        "anio_publicacion": 2007,
+        "reseña": "La primera parte de la trilogía 'Crónica del asesino de reyes' de Patrick Rothfuss que sigue las aventuras del músico y mago Kvothe mientras narra su propia historia.",
+        "isbn": "978-84-670-4265-4"
+    },
+    {
+        "id": 31,
+        "titulo": "El temor de un hombre sabio",
+        "autor_id": 16,
+        "editorial_id": 20,
+        "genero": "Fantasía épica",
+        "anio_publicacion": 2011,
+        "reseña": "La segunda parte de la trilogía 'Crónica del asesino de reyes' de Patrick Rothfuss que continúa las aventuras de Kvothe mientras busca respuestas y venganza.",
+        "isbn": "978-84-670-5070-3"
+    },
+    {
+        "id": 32,
+        "titulo": "Juego de tronos",
+        "autor_id": 17,
+        "editorial_id": 21,
+        "genero": "Fantasía épica",
+        "anio_publicacion": 1996,
+        "reseña": "El primer libro de la saga 'Canción de hielo y fuego' de George R.R. Martin que sigue las intrigas políticas y las batallas por el trono de los Siete Reinos.",
+        "isbn": "978-84-9838-393-1"
+    },
+    {
+        "id": 33,
+        "titulo": "Choque de reyes",
+        "autor_id": 17,
+        "editorial_id": 21,
+        "genero": "Fantasía épica",
+        "anio_publicacion": 1998,
+        "reseña": "La segunda entrega de la saga 'Canción de hielo y fuego' de George R.R. Martin que sigue la lucha por el poder en los Siete Reinos mientras se avecina una amenaza del norte.",
+        "isbn": "978-84-406-9689-3"
+    },
+    {
+        "id": 34,
+        "titulo": "Crepúsculo",
+        "autor_id": 18,
+        "editorial_id": 22,
+        "genero": "Romance paranormal",
+        "anio_publicacion": 2005,
+        "reseña": "El primer libro de la saga 'Crepúsculo' de Stephenie Meyer que sigue la historia de amor entre la humana Bella Swan y el vampiro Edward Cullen.",
+        "isbn": "978-84-9660-519-2"
+    },
+    {
+        "id": 35,
+        "titulo": "Luna nueva",
+        "autor_id": 18,
+        "editorial_id": 22,
+        "genero": "Romance paranormal",
+        "anio_publicacion": 2006,
+        "reseña": "La segunda entrega de la saga 'Crepúsculo' de Stephenie Meyer que sigue a Bella mientras lidia con la partida de Edward y la llegada de un nuevo amor.",
+        "isbn": "978-84-9660-582-6"
+    },
+    {
+        "id": 36,
+        "titulo": "El león, la bruja y el armario",
+        "autor_id": 19,
+        "editorial_id": 23,
+        "genero": "Fantasía",
+        "anio_publicacion": 1950,
+        "reseña": "El primero de los siete libros de la serie 'Las crónicas de Narnia' de C.S. Lewis que sigue las aventuras de cuatro hermanos que descubren un mundo mágico al otro lado de un armario.",
+        "isbn": "978-84-272-0222-4"
+    },
+    {
+        "id": 37,
+        "titulo": "El príncipe Caspian",
+        "autor_id": 19,
+        "editorial_id": 23,
+        "genero": "Fantasía",
+        "anio_publicacion": 1951,
+        "reseña": "La segunda entrega de 'Las crónicas de Narnia' de C.S. Lewis que sigue a los hermanos Pevensie mientras regresan a Narnia y ayudan al príncipe Caspian a reclamar su trono.",
+        "isbn": "978-84-272-0470-9"
+    },
+    {
+        "id": 38,
+        "titulo": "El viejo y el mar",
+        "autor_id": 20,
+        "editorial_id": 24,
+        "genero": "Novela corta",
+        "anio_publicacion": 1952,
+        "reseña": "Una novela corta de Ernest Hemingway que cuenta la historia de Santiago, un pescador cubano que lucha contra un pez gigante en el Golfo de México.",
+        "isbn": "978-84-376-0494-7"
+    },
+    {
+        "id": 39,
+        "titulo": "Por quién doblan las campanas",
+        "autor_id": 20,
+        "editorial_id": 24,
+        "genero": "Novela bélica",
+        "anio_publicacion": 1940,
+        "reseña": "Otra obra de Ernest Hemingway que sigue a Robert Jordan, un joven estadounidense que se une a la lucha contra el régimen franquista durante la Guerra Civil Española.",
+        "isbn": "978-84-376-0443-5"
+    },
+    {
+        "id": 40,
+        "titulo": "El retrato de Dorian Gray",
+        "autor_id": 21,
+        "editorial_id": 25,
+        "genero": "Novela gótica",
+        "anio_publicacion": 1890,
+        "reseña": "La única novela de Oscar Wilde que sigue la historia de Dorian Gray, un joven cuya belleza y juventud son inmortalizadas en un retrato mientras él envejece y se corrompe.",
+        "isbn": "978-84-9104-114-8"
+    },
+    {
+        "id": 41,
+        "titulo": "Drácula",
+        "autor_id": 22,
+        "editorial_id": 26,
+        "genero": "Novela gótica",
+        "anio_publicacion": 1897,
+        "reseña": "La famosa novela de Bram Stoker que sigue al conde Drácula mientras viaja desde Transilvania a Londres en busca de nuevas víctimas y se enfrenta al cazador de vampiros Abraham Van Helsing.",
+        "isbn": "978-84-460-4315-9"
+    },
+    {
+        "id": 42,
+        "titulo": "Matar a un ruiseñor",
+        "autor_id": 23,
+        "editorial_id": 27,
+        "genero": "Novela clásica",
+        "anio_publicacion": 1960,
+        "reseña": "Una novela de Harper Lee que narra la historia de Atticus Finch, un abogado defensor que representa a un hombre negro acusado de violar a una mujer blanca en el sur de Estados Unidos durante la década de 1930.",
+        "isbn": "978-84-662-0158-5"
+    },
+    {
+        "id": 43,
+        "titulo": "Crimen y castigo",
+        "autor_id": 24,
+        "editorial_id": 28,
+        "genero": "Novela psicológica",
+        "anio_publicacion": 1866,
+        "reseña": "La famosa novela de Fiódor Dostoyevski que sigue la historia de Raskólnikov, un estudiante pobre que comete un asesinato por motivos filosóficos y debe enfrentar las consecuencias.",
+        "isbn": "978-84-9104-084-4"
+    },
+    {
+        "id": 44,
+        "titulo": "Los miserables",
+        "autor_id": 25,
+        "editorial_id": 29,
+        "genero": "Novela histórica",
+        "anio_publicacion": 1862,
+        "reseña": "La célebre novela de Victor Hugo que sigue la vida de Jean Valjean, un exconvicto que busca redención mientras es perseguido por el implacable inspector Javert.",
+        "isbn": "978-84-9982-106-5"
+    },
+    {
+        "id": 45,
+        "titulo": "La cabaña del tío Tom",
+        "autor_id": 26,
+        "editorial_id": 30,
+        "genero": "Novela antiesclavista",
+        "anio_publicacion": 1852,
+        "reseña": "Una novela de Harriet Beecher Stowe que fue influyente en la lucha contra la esclavitud en Estados Unidos y que sigue la vida de Tom, un esclavo que es vendido a diferentes amos.",
+        "isbn": "978-84-9129-139-5"
+    },
+    {
+        "id": 46,
+        "titulo": "La montaña mágica",
+        "autor_id": 27,
+        "editorial_id": 31,
+        "genero": "Novela filosófica",
+        "anio_publicacion": 1924,
+        "reseña": "Una obra de Thomas Mann que sigue la historia de Hans Castorp, un joven que visita un sanatorio en los Alpes suizos y se ve envuelto en debates sobre la vida, la muerte y la enfermedad.",
+        "isbn": "978-84-670-0353-2"
+    },
+    {
+        "id": 47,
+        "titulo": "Ulises",
+        "autor_id": 28,
+        "editorial_id": 32,
+        "genero": "Novela modernista",
+        "anio_publicacion": 1922,
+        "reseña": "La obra maestra de James Joyce que sigue a Leopold Bloom en un día ordinario en Dublín mientras reflexiona sobre la vida, el amor y la identidad.",
+        "isbn": "978-84-962-0901-1"
+    },
+    {
+        "id": 48,
+        "titulo": "El gran Gatsby",
+        "autor_id": 29,
+        "editorial_id": 33,
+        "genero": "Novela modernista",
+        "anio_publicacion": 1925,
+        "reseña": "La famosa novela de F. Scott Fitzgerald que sigue la vida de Jay Gatsby, un millonario misterioso que organiza fiestas extravagantes en Long Island durante la década de 1920.",
+        "isbn": "978-84-959-8135-7"
+    },
+    {
+        "id": 49,
+        "titulo": "Mujercitas",
+        "autor_id": 30,
+        "editorial_id": 34,
+        "genero": "Novela clásica",
+        "anio_publicacion": 1868,
+        "reseña": "Una novela de Louisa May Alcott que sigue las vidas de las cuatro hermanas March mientras crecen y enfrentan los desafíos de la vida durante y después de la Guerra Civil Americana.",
+        "isbn": "978-84-460-3646-6"
+    },
+    {
+        "id": 50,
+        "titulo": "Los tres mosqueteros",
+        "autor_id": 31,
+        "editorial_id": 35,
+        "genero": "Novela de aventuras",
+        "anio_publicacion": 1844,
+        "reseña": "La clásica novela de Alejandro Dumas que sigue las aventuras de D'Artagnan y sus amigos Athos, Porthos y Aramis mientras luchan por el honor y el amor en la Francia del siglo XVII.",
+        "isbn": "978-84-479-2228-0"
+    }
+]
+

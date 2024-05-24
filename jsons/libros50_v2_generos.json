@@ -1,0 +1,132 @@
+[
+        {
+            "id": 1,
+            "nombre": "Ficción",
+            "descripcion": "Narrativas que presentan eventos y personajes imaginarios, aunque pueden reflejar aspectos de la realidad."
+        },
+        {
+            "id": 2,
+            "nombre": "Clásico",
+            "descripcion": "Obras literarias que han resistido el paso del tiempo y son consideradas ejemplares en su género."
+        },
+        {
+            "id": 3,
+            "nombre": "Romance",
+            "descripcion": "Historias centradas en relaciones amorosas, a menudo con elementos de pasión, tragedia y dilemas emocionales."
+        },
+        {
+            "id": 4,
+            "nombre": "Ciencia ficción",
+            "descripcion": "Explora posibles futuros o realidades alternativas basadas en avances científicos o tecnológicos."
+        },
+        {
+            "id": 5,
+            "nombre": "Sátira",
+            "descripcion": "Utiliza la ironía, el sarcasmo y el humor para criticar o ridiculizar aspectos de la sociedad, la política o la cultura."
+        },
+        {
+            "id": 6,
+            "nombre": "Fantasía",
+            "descripcion": "Involucra elementos sobrenaturales, mágicos o fantásticos que no existen en el mundo real."
+        },
+        {
+            "id": 7,
+            "nombre": "Fantasía épica",
+            "descripcion": "Historias de gran escala ambientadas en mundos imaginarios con conflictos épicos, criaturas míticas y magia."
+        },
+        {
+            "id": 8,
+            "nombre": "Novela judicial",
+            "descripcion": "Narrativas centradas en tramas legales, procesos judiciales o crímenes, con un enfoque en la justicia y la ley."
+        },
+        {
+            "id": 9,
+            "nombre": "Psicológica",
+            "descripcion": "Explora la mente humana, los conflictos internos y las emociones, a menudo a través de personajes complejos."
+        },
+        {
+            "id": 10,
+            "nombre": "Clásico gótico",
+            "descripcion": "Obras que presentan ambientes sombríos, personajes oscuros y elementos sobrenaturales, típicamente ambientadas en el siglo XIX."
+        },
+        {
+            "id": 11,
+            "nombre": "Realismo",
+            "descripcion": "Representa la realidad de manera fiel y detallada, con un enfoque en los aspectos cotidianos de la vida."
+        },
+        {
+            "id": 12,
+            "nombre": "Realismo mágico",
+            "descripcion": "Combina elementos realistas con elementos mágicos o fantásticos, creando una atmósfera de extrañeza y maravilla."
+        },
+        {
+            "id": 13,
+            "nombre": "Espiritual",
+            "descripcion": "Explora temas de fe, trascendencia, y búsqueda de significado en la vida, a menudo desde una perspectiva religiosa o filosófica."
+        },
+        {
+            "id": 14,
+            "nombre": "Misterio",
+            "descripcion": "Se centra en la resolución de un enigma o crimen, a menudo con giros inesperados y revelaciones sorprendentes."
+        },
+        {
+            "id": 15,
+            "nombre": "Thriller",
+            "descripcion": "Narrativas emocionantes y llenas de suspenso, con tramas cargadas de peligro, acción y tensión psicológica."
+        },
+        {
+            "id": 16,
+            "nombre": "Histórico",
+            "descripcion": "Se sitúa en un período histórico específico y busca recrear de manera precisa la época y los eventos de ese tiempo."
+        },
+        {
+            "id": 17,
+            "nombre": "Ciencia ficción militar",
+            "descripcion": "Combina elementos de ciencia ficción con temas militares, como guerras interestelares, tecnología avanzada y conflictos interplanetarios."
+        },
+        {
+            "id": 18,
+            "nombre": "Sátira social",
+            "descripcion": "Utiliza el humor y la crítica para señalar y cuestionar aspectos de la sociedad, la política y la cultura contemporáneas."
+        },
+        {
+            "id": 19,
+            "nombre": "Ficción detectivesca",
+            "descripcion": "Narrativas que siguen la investigación y resolución de crímenes o misterios por parte de un detective o investigador."
+        },
+        {
+            "id": 20,
+            "nombre": "Ficción criminal",
+            "descripcion": "Centradas en crímenes, criminales o la vida en el mundo del crimen, a menudo explorando aspectos de la moralidad y la justicia."
+        },
+        {
+            "id": 21,
+            "nombre": "Aventura",
+            "descripcion": "Historias emocionantes y llenas de acción que siguen a personajes en busca de desafíos, peligros y descubrimientos."
+        },
+        {
+            "id": 22,
+            "nombre": "Literatura juvenil",
+            "descripcion": "Dirigida a un público joven, con tramas y personajes que reflejan sus preocupaciones, experiencias y desarrollo personal."
+        },
+        {
+            "id": 23,
+            "nombre": "Gótico",
+            "descripcion": "Ambientes oscuros y sombríos, personajes misteriosos y elementos sobrenaturales, típicamente asociados con el romanticismo oscuro."
+        },
+        {
+            "id": 24,
+            "nombre": "Polémico",
+            "descripcion": "Despierta controversia o debate debido a su contenido provocativo, temas sensibles o representaciones controvertidas."
+        },
+        {
+            "id": 25,
+            "nombre": "Jazz Age",
+            "descripcion": "Refleja la época del jazz y la cultura de los años 20, con un enfoque en la moda, la música, la vida nocturna y la decadencia."
+        },
+        {
+            "id": 26,
+            "nombre": "Novela histórica",
+            "descripcion": "Se ambienta en un período histórico real y busca recrear con precisión los eventos, personajes y contextos de esa época."
+        }
+    ]
