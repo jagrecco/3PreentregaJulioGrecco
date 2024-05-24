@@ -25,6 +25,8 @@ El proyecto consiste en un aplicación para gestión de una biblioteca incluyend
 
 * Préstamos: Gestión de préstamos de libros relacionando las bases de datos de usuarios y libros.
 
+* Utilidad: En la carpeta jsons están los archivos json y el código python usado para llenar la base de datos con información de libros, autores y géneros literarios.
+
 ##### Modelos
 Los modelos según aplicación son los siguientes:
 
