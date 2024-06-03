@@ -12,14 +12,14 @@ class LibrosCrearAutor(forms.ModelForm):
             "descripcion": forms.Textarea(attrs={"class": "form-control"}),
         }
 
-class LibrosCrearEditorial(forms.ModelForm):
-    class Meta:
-        model=models.Editorial
-        fields = "__all__"
-        widgets = {
-            "nombre": forms.TextInput(attrs={"class": "form-control"}),
-            "pais": forms.TextInput(attrs={"class": "form-control"}),
-        }
+#class LibrosCrearEditorial(forms.ModelForm):
+#    class Meta:
+#        model=models.Editorial
+#        fields = "__all__"
+#        widgets = {
+#            "nombre": forms.TextInput(attrs={"class": "form-control"}),
+#            "pais": forms.TextInput(attrs={"class": "form-control"}),
+#        }
 
 class LibrosCrearGenero(forms.ModelForm):
     class Meta:

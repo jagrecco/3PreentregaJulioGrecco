@@ -3,9 +3,11 @@ from django.shortcuts import render, redirect
 
 from . import forms, models
 
+#autor= models.Autor.objects.all().values('url')
+#genero= models.Genero.objects.all()
+
 def home(request):
-    #query=models.Libro.objects.all()
-    #context={'libros': query}
+    
     return render(request, 'libros/index.html')
 
 #Vistas para libros
@@ -17,9 +19,9 @@ def listarlibros(request):
     if consulta:
         query = models.Libro.objects.filter(titulo__icontains=consulta)
     else:
-        query=models.Libro.objects.all()
+        query=models.Libro.objects.all().select_related('autor')[:10]
     
-    context={'libros': query}
+    context={'libros': query} #, 'autor': autor
     return render(request, 'libros/listarlibros.html', context)
 
 @login_required

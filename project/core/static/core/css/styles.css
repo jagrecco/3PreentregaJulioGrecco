@@ -1,0 +1,52 @@
+.navfija{
+    top: 0;
+    position: sticky;
+    z-index: 1000;
+}
+
+.contenedor_libros{
+    display: flex;
+}
+
+.cat_libros{
+    text-decoration: solid;
+}
+
+.tools_libros{
+    top: 200;
+    flex: 0 0 auto; 
+    width: 17.5rem; 
+    position: fixed;
+}
+
+.contenedor_card_libros{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1; 
+    overflow-y: auto;
+    margin-left: 18rem;
+}
+
+.contenedor_lista_libros{
+    width: 100%;
+    margin-left: 18rem;
+}
+
+.contenedor_invisible{
+    display: none;
+}
+
+.libros_toolbar{
+    display: flex;
+    gap: 5px;
+}
+
+.tabla_header{
+    background-color: blueviolet;
+}
+
+.footer_lib{
+    position: sticky;
+    bottom: 0;
+}

@@ -35,7 +35,8 @@
         <div class="card shadow" style="width: 18rem;">
             <div class="card-body">
                 <h5 class="card-title">{{autor.nombre}}</h5>
-                <p class="card-text">{{autor.descripcion}}</p>
+                <p class="card-text">{{autor.url}}</p>
+                <a href={{autor.url}}>Web</a> 
 
                 <!-- Menú autores -->
                 {% if user.is_staff %}
