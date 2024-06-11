@@ -9,10 +9,10 @@
 
 <div class="tools_libros card shadow" >
     
-    {% if user.is_staff %}
     
-        <div class="libros_toolbar_botones" >
-    
+    <div class="libros_toolbar_botones" >
+        
+        {% if user.is_staff %}
             <div class="">
                 <a class="btn btn-light shadow boton_toolbar" href='{% url 'libros:crearlibro' %}'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-plus" viewBox="0 0 16 16">
@@ -21,6 +21,7 @@
                     </svg>
                 </a>
             </div>
+        {% endif %}
             <div class="">
                 <button value="card" id="lista_card" class="btn btn-light shadow boton_toolbar" onclick="cambia_lista_card()">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list-columns-reverse" viewBox="0 0 16 16">
@@ -31,23 +32,30 @@
         
         </div>
     
-    {% endif %}
+
+    <br>
     
     <div class="py-lg-4">
         <form action="{% url 'libros:listarlibros' %}" method="get">
             <label class="form-label">Enter para filtrar</label>
             <input class="form-control shadow" type="text" name="consulta" placeholder="Buscar...">
-
+            
             <div class="switches" style="margin-top: 1rem;">
-
-                <input type="checkbox" name="titulo" id="titulo" checked role="switch">
+                
+                <input type="radio" id="titulo" name="titulo" value="titulo" >
+                <label for="titulo">Título</label><br>
+                <input type="radio" id="autor" name="autor" value="autor">
+                <label for="autor">Autor</label><br>
+                <!-- <input type="checkbox" name="titulo" id="titulo" checked role="switch">
                 <label for="titulo"> Título</label><br>
                 <input type="checkbox" name="autor" id="autor" role="switch">
-                <label for="autor"> Autor</label>
+                <label for="autor"> Autor</label> -->
             </div>
 
         </form>
     </div>
+
+    <span><small>{{seleccion}} de {{total}} registros</small></span>
 
 </div>
 <div class="contenedor_libros" >

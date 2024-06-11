@@ -15,13 +15,19 @@ def home(request):
 def listarlibros(request):
 
     consulta = request.GET.get("consulta", None)
+    titulo=request.GET.get("titulo", None)
+    autor=request.GET.get("autor", None)
+    print(consulta, titulo, autor)
 
     if consulta:
-        query = models.Libro.objects.filter(titulo__icontains=consulta)
+        if titulo:
+            query = models.Libro.objects.filter(titulo__icontains=consulta)
+        else:
+            query = models.Libro.objects.filter(autor__nombre__icontains=consulta)
     else:
-        query=models.Libro.objects.all().select_related('autor')[:10]
+        query=models.Libro.objects.all().select_related('autor')[:20]
     
-    context={'libros': query} #, 'autor': autor
+    context={'libros': query, 'seleccion': query.count(), 'total':models.Libro.objects.all().count()} #, 'autor': autor
     return render(request, 'libros/listarlibros.html', context)
 
 @login_required

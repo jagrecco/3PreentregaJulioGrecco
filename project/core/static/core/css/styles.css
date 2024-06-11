@@ -22,7 +22,7 @@
 .tools_libros{
     width: 13rem;
     position: fixed;
-    padding: 5px;
+    padding: 1rem;
 }
 
 .libros_toolbar_botones{
@@ -108,6 +108,6 @@
 
 .footer_lib{
     
-    position: sticky;
+    /* position: sticky; */
     bottom: 0;
 }
